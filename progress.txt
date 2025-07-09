@@ -1,3 +1,4 @@
 lesson 1
 
-stop before 
+stop before <a> tag, didnt do hyperlink yet.
+the rest before this all okay 
