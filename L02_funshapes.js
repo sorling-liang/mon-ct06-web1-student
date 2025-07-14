@@ -23,7 +23,7 @@ function draw() {
   // triangle(50,50, 350,385, 350, 200);
 
   // Challenge 5: A square face using quad() function
-  quad(80,50, 150,50, 180,335, 0,350);
+  quad(80,50, 150,115, 180,335, 0,350);
   // Challenge 6: Add some colours to the drawings in the above challenges
 
   // Challenge 7: Create a funny Pokemon
