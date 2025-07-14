@@ -4,7 +4,8 @@ Task 1: Add the setup() function
 function setup() {
   // run once
   createCanvas(400, 400); // a blank drawing canvas
-  background(220);
+  // background(220);
+
 }
 
 // forever block
