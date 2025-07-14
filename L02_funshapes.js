@@ -20,11 +20,11 @@ function draw() {
   // rect(35, 150, 300, 200);
 
   // Challenge 4: A rocketship using triangle() function
-  // triangle(50,50, 350,385, 350, 200);
+  triangle(50,50, 350,385, 350, 200);
 
   // Challenge 5: A square face using quad() function
-  fill("yellow");
-  quad(80,85, 150,115,180,335,  0,350, );
+  // fill("yellow");
+  // quad(80,85, 150,115,180,335,  0,350, );
   // Challenge 6: Add some colours to the drawings in the above challenges
 
   // Challenge 7: Create a funny Pokemon
