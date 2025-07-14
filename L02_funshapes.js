@@ -2,6 +2,8 @@
 Task 1: Add the setup() function
 */
 
+
+// forever block
 function draw() {
   // Challenge 1: An eye using ellipse() function
 
