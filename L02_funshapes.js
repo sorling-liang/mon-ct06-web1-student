@@ -13,7 +13,7 @@ function draw() {
   // Challenge 1: An eye using ellipse() function
 
   // Challenge 2: A face using circle() function
-  
+  //      x    y   diameter
   circle(150, 150, 100);
   // Challenge 3: A house using rect() function
 
