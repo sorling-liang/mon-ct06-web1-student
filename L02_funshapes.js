@@ -5,7 +5,7 @@ function setup() {
   // run once
   createCanvas(400, 400); // a blank drawing canvas
   // background(220); // gray tone
-  background("cyan"); // colour name
+  background("skyblue"); // colour name
 }
 
 // forever block
