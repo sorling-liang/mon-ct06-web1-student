@@ -1,15 +1,16 @@
+
 function setup() {
     createCanvas(800, 400);
     background(220);
     noLoop(); // Stops continuous drawing
   }
 
-colorX = 0;
+
 function draw() {
   // Recap 1: Repeating Circles
-  let posX = 50;
-  let posY = 150;
-  let circleD = 80;
+  // let posX = 50;
+  // let posY = 150;
+  // let circleD = 80;
   
 
   // use a loop: repeat 4 times
