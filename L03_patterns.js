@@ -13,15 +13,16 @@ function draw() {
 
   // use a loop: repeat 4 times
   // i++ is the same as i = i+1;
-  for (let i=1; i<10; i++) {
-    fill(colorB, 0, 225); // 0 black
-    colorB = colorB + 30;
+  // for (let i=1; i<10; i++) {
+  //   fill(colorB, 0, 225); // 0 black
+  //   colorB = colorB + 30;
 
-    // these are repeating
-    circle(posX, posY, circleD);
-    // new value of position X
-    posX = posX + circleD + 10;
-  }
+  //   // these are repeating
+  //   circle(posX, posY, circleD);
+  //   // new value of position X
+  //   posX = posX + circleD + 10;
+  // }
+  
 
 
 
