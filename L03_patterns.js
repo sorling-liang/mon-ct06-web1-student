@@ -9,6 +9,7 @@ function draw() {
   let posX = 50;
   let posY = 150;
   let circleD = 80;
+  let colorB = 0;
 
   // use a loop: repeat 4 times
   // i++ is the same as i = i+1;
