@@ -6,7 +6,9 @@ function setup() {
   
 function draw() {
   // Recap 1: Repeating Circles
-  let
+  let posX = 0;
+  let posY = 150;
+  let circleD = 80;
   //     x    y    d
   circle(50, 150, 80);
   circle(140,150, 80);
