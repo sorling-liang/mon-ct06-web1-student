@@ -15,7 +15,7 @@ function draw() {
   // i++ is the same as i = i+1;
   for (let i=1; i<10; i++) {
     fill(colorB); // 0 black
-    
+    colorB = colorB + 35;
 
     // these are repeating
     circle(posX, posY, circleD);
