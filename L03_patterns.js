@@ -14,13 +14,13 @@ function draw() {
   circle(posX, posY, circleD);
 
   posX = posX + circleD + 10;
-  circle(posX,posY, circleD);
+  circle(posX, posY, circleD);
 
   posX = posX + circleD + 10;
-  circle(posX,posY, circleD);
+  circle(posX, posY, circleD);
 
   posX = posX + circleD + 10;
-  circle(posX,posY, circleD);
+  circle(posX, posY, circleD);
 
   // Task 1: Colour Gradient
 
