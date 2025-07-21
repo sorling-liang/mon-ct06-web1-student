@@ -11,8 +11,9 @@ function draw() {
   let circleD = 80;
 
   for (let i=0; i<5; i++) {
+    // these are repeating
     circle(posX, posY, circleD);
-
+    // new value of position X
     posX = posX + circleD + 10;
   }
 
