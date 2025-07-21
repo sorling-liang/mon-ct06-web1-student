@@ -4,7 +4,7 @@ function setup() {
     noLoop(); // Stops continuous drawing
   }
 
-colorB = 0;
+colorX = 0;
 function draw() {
   // Recap 1: Repeating Circles
   let posX = 50;
@@ -25,7 +25,7 @@ function draw() {
   // }
   fill(colorB);
   circle(150, 150, 200);
-  colorB = colorB + 2;
+  colorB = colorB + 1;
 
 
 
