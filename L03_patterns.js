@@ -12,9 +12,10 @@ function draw() {
 
   //     x    y    d
   circle(posX, posY, circleD);
-  posX = posX + circleD + 20;
 
+  posX = posX + circleD + 10;
   circle(posX,posY, circleD);
+
   circle(230,posY, circleD);
   circle(320,posY, circleD);
 
