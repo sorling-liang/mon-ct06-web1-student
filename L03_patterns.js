@@ -3,8 +3,8 @@ function setup() {
     background(220);
     noLoop(); // Stops continuous drawing
   }
-  
-let colorB = 0;
+
+colorB = 0;
 function draw() {
   // Recap 1: Repeating Circles
   let posX = 50;
