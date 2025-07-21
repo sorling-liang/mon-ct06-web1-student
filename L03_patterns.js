@@ -19,7 +19,8 @@ function draw() {
   posX = posX + circleD + 10;
   circle(posX,posY, circleD);
 
-  circle(320,posY, circleD);
+  posX = posX + circleD + 10;
+  circle(posX,posY, circleD);
 
   // Task 1: Colour Gradient
 
