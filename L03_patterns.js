@@ -9,9 +9,10 @@ function draw() {
   let posX = 50;
   let posY = 150;
   let circleD = 80;
-  
+
   //     x    y    d
-  circle(50, posY, circleD);
+  circle(posX, posY, circleD);
+  []
   circle(140,posY, circleD);
   circle(230,posY, circleD);
   circle(320,posY, circleD);
