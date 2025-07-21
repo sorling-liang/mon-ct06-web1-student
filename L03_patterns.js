@@ -6,14 +6,14 @@ function setup() {
   
 function draw() {
   // Recap 1: Repeating Circles
-  let posX = 0;
+  let posX = 50;
   let posY = 150;
   let circleD = 80;
   //     x    y    d
-  circle(50, 150, circleD);
-  circle(140,150, circleD);
-  circle(230,150, circleD);
-  circle(320,150, circleD);
+  circle(50, posY, circleD);
+  circle(140,posY, circleD);
+  circle(230,posY, circleD);
+  circle(320,posY, circleD);
 
   // Task 1: Colour Gradient
 
