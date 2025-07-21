@@ -24,7 +24,7 @@ function draw() {
   //   posX = posX + circleD + 10;
   // }
   fill(colorB);
-  circle(50, 50, 200);
+  circle(150, 150, 200);
   colorB = colorB + 2;
 
 
