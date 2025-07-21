@@ -23,7 +23,7 @@ function draw() {
   fill("red");
   noStroke();
   triangle(50,50, 350,50, 350, 350);
-  fill(rgb);
+  fill(255,0,0);
   circle(100,100, 200);
 
   // Challenge 5: A square face using quad() function
