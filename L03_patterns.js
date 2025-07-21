@@ -8,12 +8,12 @@ function draw() {
   // Recap 1: Repeating Circles
   let posX = 50;
   let posY = 150;
-  let circleD = 35;
+  let circleD = 50;
 
-  for (let i=0; i<12; i++) {
+  for (let i=0; i<; i++) {
     circle(posX, posY, circleD);
 
-    posX = posX + circleD + 20;
+    posX = posX + circleD + 10;
   }
 
 
