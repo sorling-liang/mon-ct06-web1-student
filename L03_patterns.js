@@ -10,7 +10,7 @@ function draw() {
   let posY = 150;
   let circleD = 35;
 
-  for (let i=0; i<10; i++) {
+  for (let i=0; i<12; i++) {
     circle(posX, posY, circleD);
 
     posX = posX + circleD + 5;
