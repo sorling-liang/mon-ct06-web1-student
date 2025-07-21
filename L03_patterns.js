@@ -1,4 +1,5 @@
 let colorX = 0;
+
 function setup() {
     createCanvas(800, 400);
     background(220);
