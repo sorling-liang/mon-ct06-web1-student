@@ -13,6 +13,7 @@ function draw() {
   // use a loop: repeat 4 times
   // i++ is the same as i = i+1;
   for (let i=1; i<10; i++) {
+    fill(0);
     // these are repeating
     circle(posX, posY, circleD);
     // new value of position X
