@@ -23,9 +23,9 @@ function draw() {
   //   // new value of position X
   //   posX = posX + circleD + 10;
   // }
-  fill(color);
-  circle(150, 150, 200);
-  colorB = colorB + 1;
+    fill(colorX);
+    circle(150, 150, 200);
+    colorX = colorX + 1;
 
 
 
