@@ -21,7 +21,7 @@ function draw() {
 
   // Challenge 4: A rocketship using triangle() function
   fill("red");
-  stroke("");
+  stroke("magenta");
   triangle(50,50, 350,50, 350, 350);
   fill("blue");
   circle(100,100, 200);
