@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(600, 400);
+    createCanvas(800, 400);
     background(220);
     noLoop(); // Stops continuous drawing
   }
@@ -13,7 +13,7 @@ function draw() {
   for (let i=0; i<12; i++) {
     circle(posX, posY, circleD);
 
-    posX = posX + circleD + 100;
+    posX = posX + circleD + 50;
   }
 
   //     x    y    d
