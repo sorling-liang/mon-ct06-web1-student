@@ -10,6 +10,7 @@ function draw() {
   let posY = 150;
   let circleD = 80;
 
+  // use a loop: repeat 4 times
   for (let i=1; i<5; i++) {
     // these are repeating
     circle(posX, posY, circleD);
