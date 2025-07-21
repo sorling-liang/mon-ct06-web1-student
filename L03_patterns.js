@@ -13,7 +13,7 @@ function draw() {
   for (let i=0; i<12; i++) {
     circle(posX, posY, circleD);
 
-    posX = posX + circleD + 5;
+    posX = posX + circleD + 100;
   }
 
   //     x    y    d
