@@ -39,7 +39,8 @@ function draw() {
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
-  
+  let xpos = 50;
+  let ypos = 50;
   for (let i=0; i<5; i++) {
     rect(xpos, ypos, 50, 50);
   }
