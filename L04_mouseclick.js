@@ -8,9 +8,9 @@ function setup() {
 
 // forever block
 function draw() {
-    let r = 0;
-    let g = 0;
-    let b = 0;
+    let r = 0; // red value
+    let g = 0; // green value
+    let b = 0; // blue value
     let xpos = 50;
     let ypos = 50;
 
