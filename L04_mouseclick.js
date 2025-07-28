@@ -9,11 +9,12 @@ function setup() {
 let r = 0;
 let g = 0;
 let b = 0;
-let xpos = 50;
+
 let ypos = 50;
 
 // forever block
 function draw() {
+    let xpos = 50;
     // put your code inside here
     for ( let i=0; i<5; i++) {
         fill(r,g,b);
