@@ -47,7 +47,8 @@ function draw() {
     if (i%2==0)
       fill("black");
     else
-      file
+      fill("white");
+    
     rect(xpos, ypos, 50, 50);
     xpos = xpos + 60;
   }
