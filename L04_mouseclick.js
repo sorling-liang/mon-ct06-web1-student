@@ -18,7 +18,8 @@ function draw() {
     for ( let i=0; i<5; i++) {
         fill(r,g,b);
         g = g + 50;
-        circle(xpos,50,50);
+        circle(xpos,ypos,50);
         xpos = xpos + 50;
+        ypos = ypos + 50;
     }
 } // this one must be the last line
