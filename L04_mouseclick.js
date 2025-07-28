@@ -24,7 +24,7 @@ function draw() {
     //     ypos = ypos + 50; // move down
     // }
 
-    // background(220);
+    // background(220); // erase the background
     circle(mouseX, mouseY, 50);
 
 } // this one must be the last line
