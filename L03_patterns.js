@@ -42,6 +42,7 @@ function draw() {
   let xpos = 50;
   let ypos = 50;
   for (let i=0; i<5; i++) {
+    fill("black");
     rect(xpos, ypos, 50, 50);
   }
 }
