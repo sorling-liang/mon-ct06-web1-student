@@ -15,7 +15,7 @@ function draw() {
     let ypos = 50;
 
     // put your code inside here
-    for ( let i=0; i<5; i++) {
+    for ( let i=0; i<6; i++) {
         fill(r, g, b);
         g = g + 50; // increase green to more
         circle(xpos, ypos, 50);
