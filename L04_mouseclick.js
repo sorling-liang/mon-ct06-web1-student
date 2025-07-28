@@ -10,6 +10,7 @@ function setup() {
 function draw() {
     // put your code inside here
     for ( let i=0; i<5; i++) {
-        
+        fill(r,g,b);
+        circle(50,50,50);
     }
 } // this one must be the last line
