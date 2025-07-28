@@ -6,6 +6,10 @@ function setup() {
     background(220); // gray color
 }
 
+let r = 0;
+let g = 0;
+let b = 0;
+
 // forever block
 function draw() {
     // put your code inside here
