@@ -9,6 +9,8 @@ function setup() {
 let r = 0;
 let g = 0;
 let b = 0;
+let xpos = 50;
+let ypos = 50;
 
 // forever block
 function draw() {
@@ -16,6 +18,6 @@ function draw() {
     for ( let i=0; i<5; i++) {
         fill(r,g,b);
         g = g + 50;
-        circle(50,50,50);
+        circle(xpos,50,50);
     }
 } // this one must be the last line
