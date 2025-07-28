@@ -44,11 +44,11 @@ function draw() {
 
   // repeat 5 times
   for (let i=0; i<5; i=i+1) {
-    if (i%2==0)
+    if (i%2 == 0)
       fill("black");
     else
       fill("white");
-    
+
     rect(xpos, ypos, 50, 50);
     xpos = xpos + 60;
   }
