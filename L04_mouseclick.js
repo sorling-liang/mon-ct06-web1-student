@@ -3,7 +3,7 @@
 // run once
 function setup() {
     createCanvas(600, 400); // width, height
-    background(22)
+    background(220); // gray color
 }
 
 // forever block
