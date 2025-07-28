@@ -51,6 +51,6 @@ function draw() {
   //   rect(xpos, ypos, 50, 50);
   //   xpos = xpos + 60;
   // }
-  rect()
+  rect(0,0, width, 50);
 
 }
