@@ -37,10 +37,10 @@ function draw() {
 } // this one must be the last line
 
 function mousePressed() {
-    shape
+    // use random for R G and B
+    shapeColor = color( random(255), random(255), random(255) );
 }
 
 function mouseReleased() {
-    // use random for R G and B
-    shapeColor = color( random(255), random(255), random(255) );
+    shapeColor("white");
 }
