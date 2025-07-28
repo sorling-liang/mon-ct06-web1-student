@@ -29,4 +29,6 @@ function draw() {
     // fill(5, 50); // gray-value, alpha
     // circle(mouseX, mouseY, 50);
 
+    circle(width/2, height/2, 100);
+
 } // this one must be the last line
