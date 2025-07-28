@@ -52,6 +52,6 @@ function draw() {
   //   xpos = xpos + 60;
   // }
 
-  rect(0,50, width, 50);
+  rect(0,120, width, 50);
   circle( width/2, height/2, 100);
 }
