@@ -41,9 +41,9 @@ function draw() {
   // Task 4: Grid of Circles
   let xpos = 50;
   let ypos = 50;
-  
+
   // repeat 5 times
-  for (let i=0; i<5; i++) {
+  for (let i=0; i<5; i=i+1) {
     fill("black");
     rect(xpos, ypos, 50, 50);
     xpos = xpos + 60;
