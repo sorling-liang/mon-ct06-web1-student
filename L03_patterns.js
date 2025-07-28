@@ -51,7 +51,8 @@ function draw() {
   //   rect(xpos, ypos, 50, 50);
   //   xpos = xpos + 60;
   // }
-
+  
+  noStroke();
   rect(0,130, width, 50);
   circle( width/2, height/2, 100);
 }
