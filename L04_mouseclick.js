@@ -30,8 +30,8 @@ function draw() {
     // noStroke();
     // fill(5, 50); // gray-value, alpha
     // circle(mouseX, mouseY, 50);
-    
-    fill(shapeColor);
+
+    fill(shapeColor); // new
     circle(width/2, height/2, 100);
 
 } // this one must be the last line
@@ -41,5 +41,6 @@ function mousePressed() {
 }
 
 function mouseReleased() {
+    // use random for R G and B
     shapeColor = color( random(255), random(255), random(255) );
 }
