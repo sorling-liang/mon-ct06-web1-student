@@ -32,3 +32,11 @@ function draw() {
     circle(width/2, height/2, 100);
 
 } // this one must be the last line
+
+function mousePressed() {
+    fill("red");
+}
+
+function mouseReleased() {
+
+}
