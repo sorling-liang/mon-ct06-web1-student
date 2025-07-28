@@ -37,7 +37,7 @@ function draw() {
 } // this one must be the last line
 
 function mousePressed() {
-    fill("red");
+    shape
 }
 
 function mouseReleased() {
