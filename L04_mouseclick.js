@@ -24,6 +24,6 @@ function draw() {
     //     ypos = ypos + 50; // move down
     // }
 
-    
+    circle(mouseX, mouseY, 50);
 
 } // this one must be the last line
