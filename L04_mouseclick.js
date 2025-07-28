@@ -8,7 +8,7 @@ function setup() {
 
 // forever block
 function draw() {
-    
+
     // let r = 0; // red value
     // let g = 0; // green value
     // let b = 0; // blue value
@@ -24,6 +24,6 @@ function draw() {
     //     ypos = ypos + 50; // move down
     // }
 
-
+    
 
 } // this one must be the last line
