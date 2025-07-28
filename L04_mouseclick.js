@@ -19,5 +19,6 @@ function draw() {
         fill(r,g,b);
         g = g + 50;
         circle(xpos,50,50);
+        xpos = xpos + 50;
     }
 } // this one must be the last line
