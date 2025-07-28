@@ -9,5 +9,7 @@ function setup() {
 // forever block
 function draw() {
     // put your code inside here
-    
+    for ( let i=0; i<5; i++) {
+        
+    }
 } // this one must be the last line
