@@ -26,7 +26,7 @@ function draw() {
 
     // background(220); // erase the background
     noStroke();
-    fill(5, 50);
+    fill(5, 50); // gray-value, alpha
     circle(mouseX, mouseY, 50);
 
 } // this one must be the last line
