@@ -6,6 +6,8 @@ function setup() {
     background(220); // gray color
 }
 
+let shapeColor = "red";
+
 // forever block
 function draw() {
 
