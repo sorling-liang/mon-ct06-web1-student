@@ -9,4 +9,5 @@ function setup() {
 // forever block
 function draw() {
     // put your code inside here
-}
+    
+} // this one must be the last line
