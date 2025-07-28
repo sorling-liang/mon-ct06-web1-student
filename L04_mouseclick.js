@@ -17,9 +17,9 @@ function draw() {
     // put your code inside here
     for ( let i=0; i<5; i++) {
         fill(r, g, b);
-        g = g + 50;
+        g = g + 50; // increase green to more
         circle(xpos, ypos, 50);
-        xpos = xpos + 50;
-        ypos = ypos + 50;
+        xpos = xpos + 50; // move right
+        ypos = ypos + 50; // move down
     }
 } // this one must be the last line
