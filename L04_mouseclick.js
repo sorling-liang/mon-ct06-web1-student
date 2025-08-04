@@ -36,11 +36,15 @@ function draw() {
 
 } // this one must be the last line
 
-function mousePressed() {
-    // use random for R G and B
-    shapeColor = color( random(255), random(255), random(255) );
-}
+// function mousePressed() {
+//     // use random for R G and B
+//     shapeColor = color( random(255), random(255), random(255) );
+// }
 
-function mouseReleased() {
-    shapeColor = "white";
+// function mouseReleased() {
+//     shapeColor = "white";
+// }
+
+function mouseMoved() {
+    circle(mouseX, mouseY, )
 }
