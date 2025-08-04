@@ -12,10 +12,10 @@ function setup() {
 // repeatedly 60 times per second
 function draw() {
     background(220); // clear the drawing paper
-    // noStroke();
-    let xpos = 50;
-    let ypos = 50;
-    rect( xpos, ypos, rectSize, rectSize );
+    noStroke();
+    // let xpos = 50;
+    // let ypos = 50;
+    // rect( xpos, ypos, rectSize, rectSize );
 }
 
 function mousePressed() {
