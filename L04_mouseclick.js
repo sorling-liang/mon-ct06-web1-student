@@ -45,6 +45,10 @@ function draw() {
 //     shapeColor = "white";
 // }
 
-function mouseMoved() {
-    circle(mouseX, mouseY, 25);
+// function mouseMoved() {
+//     circle(mouseX, mouseY, 25);
+// }
+
+function mouseDragged() {
+     circle(mouseX, mouseY, 25);
 }
