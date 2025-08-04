@@ -24,3 +24,11 @@ function mouseDragged() {
     circle(mouseX, mouseY, circleSize);
     circleSize = circleSize + 0.5;
 }
+
+function keyPressed() {
+    rectSize = 100;
+}
+
+function keyReleased() {
+
+}
