@@ -27,10 +27,11 @@ function draw() {
     // }
 
     // background(220); // erase the background
-    // noStroke();
+    noStroke();
     // fill(5, 50); // gray-value, alpha
     // circle(mouseX, mouseY, 50);
 
+    
     fill(shapeColor); // new
     // circle(width/2, height/2, 100);
 
