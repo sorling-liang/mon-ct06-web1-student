@@ -14,7 +14,7 @@ function draw() {
 }
 
 function mousePressed() {
-
+    shapeColor
 }
 
 function mouseDragged() {
