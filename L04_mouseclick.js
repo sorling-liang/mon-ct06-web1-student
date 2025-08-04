@@ -1,12 +1,11 @@
 // write your codes here
+let shapeColor = "red";
 
 // run once
 function setup() {
     createCanvas(600, 400); // width, height
     background(220); // gray color
 }
-
-let shapeColor = "red";
 
 // forever block
 function draw() {
