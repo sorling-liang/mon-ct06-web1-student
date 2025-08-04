@@ -37,7 +37,9 @@ function keyPressed() {
     else if (key === 'g') {
         fill("green");
     }
-    else 
+    else {
+        fill("white");
+    }
 }
 
 function keyReleased() {
