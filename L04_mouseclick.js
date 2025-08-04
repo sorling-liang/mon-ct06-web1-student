@@ -32,7 +32,7 @@ function draw() {
     // circle(mouseX, mouseY, 50);
 
     fill(shapeColor); // new
-    circle(width/2, height/2, 100);
+    // circle(width/2, height/2, 100);
 
 } // this one must be the last line
 
@@ -46,5 +46,5 @@ function draw() {
 // }
 
 function mouseMoved() {
-    circle(mouseX, mouseY, )
+    circle(mouseX, mouseY, 25);
 }
