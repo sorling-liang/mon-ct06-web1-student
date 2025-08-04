@@ -15,14 +15,14 @@ function draw() {
 }
 
 function mousePressed() {
-    shapeColor = color(random(255), 0, random(255));
-    fill(shapeColor);
-    circleSize = 5;
+    // shapeColor = color(random(255), 0, random(255));
+    // fill(shapeColor);
+    // circleSize = 5;
 }
 
 function mouseDragged() {
-    circle(mouseX, mouseY, circleSize);
-    circleSize = circleSize + 0.5;
+    // circle(mouseX, mouseY, circleSize);
+    // circleSize = circleSize + 0.5;
 }
 
 function keyPressed() {
