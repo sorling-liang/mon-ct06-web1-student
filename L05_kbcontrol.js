@@ -12,6 +12,7 @@ function setup() {
 // repeatedly 60 times per second
 function draw() {
     noStroke();
+    rect( xpos, ypos, rectSize, rectSize );
 }
 
 function mousePressed() {
