@@ -34,6 +34,9 @@ function keyPressed() {
     if (key === 'r') {
         fill("red");
     }
+    else if (key === '9') {
+        fill("cyan");
+    }
     else if (key === 'g') {
         fill("green");
     }
