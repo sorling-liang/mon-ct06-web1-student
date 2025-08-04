@@ -47,5 +47,5 @@ function draw() {
 // }
 
 function mouseDragged() {
-    circle(mouseX, mouseY, 25);
+    circle(mouseX, mouseY, 5);
 }
