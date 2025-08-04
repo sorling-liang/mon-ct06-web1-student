@@ -11,7 +11,7 @@ function setup() {
 }
 // repeatedly 60 times per second
 function draw() {
-    noStroke();
+    // noStroke();
     let xpos = 50;
     let ypos = 50;
     rect( xpos, ypos, rectSize, rectSize );
