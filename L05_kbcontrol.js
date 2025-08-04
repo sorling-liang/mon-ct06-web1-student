@@ -15,6 +15,7 @@ function draw() {
 
 function mousePressed() {
     shapeColor = color(random(255), 0, random(255));
+    fill(shapeColor);
     circleSize = 5;
 }
 
