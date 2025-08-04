@@ -5,7 +5,7 @@ let shapeColor = "Blue";
 // run once
 function setup() {
     createCanvas(600, 400);
-    background(180); // valid value 0-255
+    background(220); // valid value 0-255
 }
 // repeatedly 60 times per second
 function draw() {
