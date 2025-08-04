@@ -11,6 +11,7 @@ function setup() {
 }
 // repeatedly 60 times per second
 function draw() {
+    background(220);
     // noStroke();
     let xpos = 50;
     let ypos = 50;
