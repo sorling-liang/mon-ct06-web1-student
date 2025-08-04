@@ -31,7 +31,10 @@ function mouseDragged() {
 
 function keyPressed() {
     rectSize = 100;
-    if (key === 'r')
+    if (key === 'r') {
+        fill("red");
+    }
+    else if (key === 'g')
 }
 
 function keyReleased() {
