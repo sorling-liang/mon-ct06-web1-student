@@ -1,4 +1,5 @@
 // write your codes here
+let circleSize = 5;
 
 // run once
 function setup() {
