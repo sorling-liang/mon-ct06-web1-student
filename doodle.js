@@ -4,3 +4,4 @@
 // "r" for red pen
 
 // mouseDragged() to draw circle (as pen)
+// mouse released, nothing is drawn
