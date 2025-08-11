@@ -24,6 +24,7 @@ function keyPressed() {
         circle(width/2, height/2, 100);
     }
     else if (key === '9') {
+        background(220); // erase
         fill("cyan");
         rect(50,50,50,50);
     }
