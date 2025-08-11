@@ -24,7 +24,7 @@ function keyPressed() {
         shape = 'circle';
     }
     if (key === 'r') {
-        shapeColor = "
+        shapeColor = 'red';
         shape = 'rect';
     }
     if (key === 't') {
