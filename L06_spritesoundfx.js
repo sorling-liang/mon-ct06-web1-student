@@ -1,5 +1,6 @@
 // write your codes here
 
+
 // run once
 function setup() {
     createCanvas(600, 400);
