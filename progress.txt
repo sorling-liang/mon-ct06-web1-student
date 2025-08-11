@@ -1,11 +1,14 @@
 lesson 7
 
+#######################################
 lesson 6
 completed lesson5 keyboard controls
 did quizizz
 started on lesson 6 slides on preload() function
+#######################################
 
 lesson 5
+#######################################
 
 lesson 4
 talked to david about lesson 3 for loop is very content heavy
