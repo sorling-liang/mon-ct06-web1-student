@@ -27,6 +27,7 @@ function keyPressed() {
     }
     else if (key === 'g') {
         fill("green");
+        rect(100, 100, 100, 100);
     }
     else {
         fill("white");
