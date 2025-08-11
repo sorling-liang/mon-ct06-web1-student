@@ -9,6 +9,8 @@ started on lesson 6 slides on preload() function
 #######################################
 lesson 5
 
+started on L5 keyboard slides
+
 #######################################
 lesson 4
 talked to david about lesson 3 for loop is very content heavy
