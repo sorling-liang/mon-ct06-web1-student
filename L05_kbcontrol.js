@@ -22,10 +22,10 @@ function draw() {
         ypos = ypos - 5;
     }
     if ( keyIsDown(DOWN_ARROW) ) {
-        pos = ypos + 5;
+        ypos = ypos + 5;
     }    
     fill("yellow");
-    circle( xpos, height/2, 50 );
+    circle( xpos, ypos, 50 );
 }
 
 // function keyPressed() {
