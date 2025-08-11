@@ -30,6 +30,9 @@ function keyPressed() {
     if (key === 't') {
         shape = 'triangle';
     }
+    if (key === 'g') {
+        shapeColor
+    }
 
     // up arrow
     // UP_ARROW
