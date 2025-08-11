@@ -13,6 +13,8 @@ function draw() {
     if ( keyIsDown(RIGHT_ARROW) ) {
         xpos = xpos + 5;
     }
+    fill("yellow");
+    circle( width/2 + xpos, height/2, 50)
 }
 
 // function keyPressed() {
