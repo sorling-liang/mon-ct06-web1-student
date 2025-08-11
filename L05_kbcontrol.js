@@ -24,7 +24,7 @@ function keyPressed() {
     if (keyCode === UP_ARROW) {
         background(220);
         fill("red");
-        circle(150,150,100)
+        circle(150,150,100);
     }
 }
 
