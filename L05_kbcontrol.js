@@ -21,7 +21,7 @@ function keyPressed() {
     //   text  x   y
     text(key, 50, 50);
     text(keyCode, 50, 120);
-    if (keyCode === UP_ARROW) {
+    if (keyCode === 38) { //UP_ARROW) {
         // background(220);
         fill("red");
         circle(150,150,100);
