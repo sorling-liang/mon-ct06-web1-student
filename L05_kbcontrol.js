@@ -1,6 +1,7 @@
 // write your codes here
 let rectSize = 50;
 let shapeColor = "blue";
+let shape = "none";
 
 // run once
 function setup() {
@@ -25,7 +26,7 @@ function keyPressed() {
     if (key === 't') {
         
     }
-    
+
     // up arrow
     // UP_ARROW
     if (keyCode === 38) { 
