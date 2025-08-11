@@ -23,7 +23,7 @@ function keyPressed() {
         //     x        y         diameter
         circle(width/2, height/2, 100);
     }
-    else if (key === '9') {
+    else if (key === 'b') {
         background(220); // erase
         fill("cyan");
         rect(50,50,50,50);
