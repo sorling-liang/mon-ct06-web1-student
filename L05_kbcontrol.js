@@ -9,7 +9,7 @@ function setup() {
 // repeatedly 60 times per second
 function draw() {
     background(220); // clear the drawing paper
-    // noStroke();
+
     if ( keyIsDown(RIGHT_ARROW) ) {
         xpos = xpos + 5;
     }
@@ -18,6 +18,7 @@ function draw() {
     }
     fill("yellow");
     circle( width/2 + xpos, height/2, 50 );
+    
 }
 
 // function keyPressed() {
