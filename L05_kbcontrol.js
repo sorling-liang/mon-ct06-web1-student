@@ -31,8 +31,9 @@ function keyPressed() {
         shape = 'triangle';
     }
     if (key === 'g') {
-        shapeColor
+        shapeColor = 'green';
     }
+    if (key === 'b')
 
     // up arrow
     // UP_ARROW
