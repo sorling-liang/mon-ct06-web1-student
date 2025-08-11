@@ -26,7 +26,7 @@ function keyPressed() {
         fill("red");
         circle(150,150,100);
     }
-    if (keyCode === DOWN_ARROW) {
+    if (keyCode === 40) { //DOWN_ARROW) {
         // background(220);
         fill("black");
         circle(150,150,100);
