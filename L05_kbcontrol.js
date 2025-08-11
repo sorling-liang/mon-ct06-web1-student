@@ -22,12 +22,12 @@ function keyPressed() {
     // text(key, 50, 50);
     // text(keyCode, 50, 120);
 
-    if (keyCode === 38) { //UP_ARROW) {
+    if (keyCode === 38) { 
         background(220);
         fill("red");
         circle(150,150,100);
     }
-    if (keyCode === 40) { //DOWN_ARROW) {
+    if (keyCode === 40) { 
         background(220);
         fill("black");
         circle(150,150,100);
