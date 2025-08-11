@@ -18,7 +18,6 @@ function draw() {
     }
     fill("yellow");
     circle( xpos, height/2, 50 );
-
 }
 
 // function keyPressed() {
