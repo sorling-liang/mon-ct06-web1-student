@@ -25,6 +25,7 @@ function keyPressed() {
     }
     else if (key === '9') {
         fill("cyan");
+        
     }
     else if (key === 'g') {
         background(220); // erase
