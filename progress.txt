@@ -27,6 +27,10 @@ stopped before mouseDragged() function
 
 #######################################
 lesson 3
+finished up shapes
+did quizizz
+
+started on L3 for loop
 
 #######################################
 lesson 2
