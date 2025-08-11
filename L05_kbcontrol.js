@@ -14,7 +14,8 @@ function draw() {
     background(220); // clear the drawing paper
     fill(shapeColor);
     if (shape === 'circle') circle(100,100,80);
-    if (shape === 'rect') rect(width/2,)
+    if (shape === 'rect') rect(150,150,100,80);
+    if (shape === 'triangle') triangle()
 }
 
 function keyPressed() {
