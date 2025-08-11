@@ -18,7 +18,7 @@ function draw() {
 function keyPressed() {
     textSize(16);
     text(key, 50, 20);
-    text()
+    text(keyCode, 50, 20);
 }
 
 // function keyReleased() {
