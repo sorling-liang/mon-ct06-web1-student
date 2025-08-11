@@ -1,5 +1,5 @@
 // write your codes here
-let xpos = 10;
+let xpos = 0;
 
 // run once
 function setup() {
