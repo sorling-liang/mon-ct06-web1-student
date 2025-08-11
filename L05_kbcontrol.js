@@ -21,10 +21,10 @@ function keyPressed() {
         shape = 'circle';
     }
     if (key === 'r') {
-        
+        shape = 'rect';
     }
     if (key === 't') {
-        
+        shape = 'triangle';
     }
 
     // up arrow
