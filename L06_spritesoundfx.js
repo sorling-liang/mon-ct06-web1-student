@@ -1,6 +1,6 @@
 // write your codes here
 
-// 
+// media files like images and sounds
 function preload() {
 
 }
