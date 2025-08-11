@@ -21,14 +21,14 @@ function keyPressed() {
     // //   text  x   y
     // text(key, 50, 50);
     // text(keyCode, 50, 120);
-    
+
     if (keyCode === 38) { //UP_ARROW) {
-        // background(220);
+        background(220);
         fill("red");
         circle(150,150,100);
     }
     if (keyCode === 40) { //DOWN_ARROW) {
-        // background(220);
+        background(220);
         fill("black");
         circle(150,150,100);
     }
