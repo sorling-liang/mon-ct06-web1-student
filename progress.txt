@@ -28,6 +28,7 @@ stopped before mouseDragged() function
 #######################################
 lesson 3
 
+#######################################
 lesson 2
 we revised last week's quizizz questions and answers
 we finished the a tag
