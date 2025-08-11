@@ -16,18 +16,18 @@ function draw() {
 }
 
 function keyPressed() {
-    // background(220);
-    // textSize(64); // font size
-    // //   text  x   y
-    // text(key, 50, 50);
-    // text(keyCode, 50, 120);
+    background(220);
+    textSize(64); // font size
+    //   text  x   y
+    text(key, 50, 50);
+    text(keyCode, 50, 120);
     if (keyCode === UP_ARROW) {
-        background(220);
+        // background(220);
         fill("red");
         circle(150,150,100);
     }
     if (keyCode === DOWN_ARROW) {
-        background(220);
+        // background(220);
         fill("black");
         circle(150,150,100);
     }
