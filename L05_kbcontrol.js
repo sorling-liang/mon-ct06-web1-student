@@ -22,11 +22,14 @@ function keyPressed() {
     // text(key, 50, 50);
     // text(keyCode, 50, 120);
 
+    // up arrow
     if (keyCode === 38) { 
         background(220);
         fill("red");
         circle(150,150,100);
     }
+
+    // down arrow
     if (keyCode === 40) { 
         background(220);
         fill("black");
