@@ -16,29 +16,7 @@ function draw() {
 }
 
 function keyPressed() {
-    rectSize = 100;
-    if (key === 'r') {
-        background(220); // erase
-        fill("red");
-        //     x        y         diameter
-        circle(width/2, height/2, 100);
-    }
-    else if (key === 'b') {
-        background(220); // erase
-        fill("cyan");
-        rect(50,50,50,50);
-    }
-    else if (key === 'g') {
-        background(220); // erase
-        fill("green");
-        //   x     y   w    h 
-        rect(100, 100, 100, 100);
-    }
-    else {
-        background(220); // erase
-        fill("white");
-        triangle(50,250, 200,0, 250,250);
-    }
+    textSize(16);
 }
 
 // function keyReleased() {
