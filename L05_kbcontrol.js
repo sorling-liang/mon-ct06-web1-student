@@ -34,6 +34,7 @@ function keyPressed() {
         rect(100, 100, 100, 100);
     }
     else {
+        background(220); // erase
         fill("white");
         triangle(50,250, 200,0, 250,250);
     }
