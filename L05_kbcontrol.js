@@ -18,7 +18,7 @@ function draw() {
 function keyPressed() {
     rectSize = 100;
     if (key === 'r') {
-        background(220);
+        background(220); // erase
         fill("red");
         //     x        y         diameter
         circle(width/2, height/2, 100);
@@ -27,7 +27,7 @@ function keyPressed() {
         fill("cyan");
     }
     else if (key === 'g') {
-        background(220);
+        background(220); // erase
         fill("green");
         rect(100, 100, 100, 100);
     }
