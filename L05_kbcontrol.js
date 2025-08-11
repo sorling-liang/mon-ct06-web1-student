@@ -16,7 +16,15 @@ function draw() {
 
 function keyPressed() {
 
-    if (key === 'c')
+    if (key === 'c') {
+
+    }
+    if (key === 'c') {
+        
+    }
+    if (key === 't') {
+        
+    }
     // up arrow
     // UP_ARROW
     if (keyCode === 38) { 
