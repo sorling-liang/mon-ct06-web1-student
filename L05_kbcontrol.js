@@ -33,7 +33,9 @@ function keyPressed() {
     if (key === 'g') {
         shapeColor = 'green';
     }
-    if (key === 'b')
+    if (key === 'b') {
+        shapeColor = 'blue';
+    }
 
     // up arrow
     // UP_ARROW
