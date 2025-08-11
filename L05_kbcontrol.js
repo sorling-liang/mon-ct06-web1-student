@@ -19,12 +19,13 @@ function keyPressed() {
     if (key === 'c') {
 
     }
-    if (key === 'c') {
+    if (key === 'r') {
         
     }
     if (key === 't') {
         
     }
+    
     // up arrow
     // UP_ARROW
     if (keyCode === 38) { 
