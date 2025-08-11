@@ -1,6 +1,6 @@
 // write your codes here
 let rectSize = 50;
-
+l
 // run once
 function setup() {
     createCanvas(600, 400);
@@ -16,12 +16,12 @@ function keyPressed() {
 
     // up arrow
     if (keyCode === 38) { 
- 
+        shapeColor = "red";
     }
 
     // down arrow
     if (keyCode === 40) { 
-
+        shapeColor = "black";
     }
 }
 
