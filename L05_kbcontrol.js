@@ -20,13 +20,14 @@ function draw() {
         xpos = xpos - 5;
     }
     xpos = constrain(xpos, 0, width);
-    
+
     if ( keyIsDown(UP_ARROW) ) {
         ypos = ypos - 5;
     }
     if ( keyIsDown(DOWN_ARROW) ) {
         ypos = ypos + 5;
     }    
+    ypos = constrain(ypos, 0, )
     fill("yellow");
     circle( xpos, ypos, 50 );
 }
