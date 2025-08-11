@@ -27,6 +27,7 @@ function keyPressed() {
         fill("cyan");
     }
     else if (key === 'g') {
+        background(220);
         fill("green");
         rect(100, 100, 100, 100);
     }
