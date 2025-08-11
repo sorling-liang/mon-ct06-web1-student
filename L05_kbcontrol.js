@@ -17,6 +17,7 @@ function draw() {
 function keyPressed() {
 
     // up arrow
+    // UP_ARROW
     if (keyCode === 38) { 
         shapeColor = "red";
     }
