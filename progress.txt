@@ -8,6 +8,8 @@ started on lesson 6 slides on preload() function
 
 #######################################
 lesson 5
+finished up L4 mouseDragged() function
+did quizizz
 
 started on L5 keyboard slides
 
