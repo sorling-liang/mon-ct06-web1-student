@@ -17,7 +17,7 @@ function draw() {
 
 function keyPressed() {
     background(220);
-    textSize(64);
+    textSize(64); // font size
     //   text  x   y
     text(key, 50, 50);
     text(keyCode, 50, 120);
