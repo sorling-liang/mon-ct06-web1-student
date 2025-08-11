@@ -11,7 +11,8 @@ lesson 4
 talked to david about lesson 3 for loop is very content heavy
 so he advised to skip
  1. nested loops
- 2. 
+ 2. xxx
+ 3. xxx
 lesson 3
 
 lesson 2
