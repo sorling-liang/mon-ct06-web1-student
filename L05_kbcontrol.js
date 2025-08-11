@@ -33,7 +33,7 @@ function keyPressed() {
     rectSize = 100;
     if (key === 'r') {
         fill("red");
-        circle()
+        circle(width/2, height/2, 50);
     }
     else if (key === '9') {
         fill("cyan");
