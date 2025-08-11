@@ -25,7 +25,7 @@ function keyPressed() {
     }
     else if (key === '9') {
         fill("cyan");
-        
+        rect(50,50,50,50);
     }
     else if (key === 'g') {
         background(220); // erase
@@ -34,6 +34,7 @@ function keyPressed() {
     }
     else {
         fill("white");
+        
     }
 }
 
