@@ -28,9 +28,9 @@ function draw() {
         ypos = ypos + 5;
     }    
     ypos = constrain(ypos, 0, height);
-    
+
     fill("yellow");
-    circle( xpos, ypos, 50 );
+    circle( xpos, ypos, 50 ); // player
 }
 
 // function keyPressed() {
