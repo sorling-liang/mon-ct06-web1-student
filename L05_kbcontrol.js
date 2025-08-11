@@ -16,6 +16,7 @@ function draw() {
 }
 
 function keyPressed() {
+    background(220);
     textSize(16);
     text(key, 50, 20);
     text(keyCode, 50, 20);
