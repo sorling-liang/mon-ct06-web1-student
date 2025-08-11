@@ -14,7 +14,7 @@ function draw() {
         xpos = xpos + 5;
     }
     if ( keyIsDown(LEFT_ARROW) ) {
-        xpos = xpos + 5;
+        xpos = xpos - 5;
     }
     fill("yellow");
     circle( width/2 + xpos, height/2, 50 );
