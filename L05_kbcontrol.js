@@ -27,7 +27,8 @@ function draw() {
     if ( keyIsDown(DOWN_ARROW) ) {
         ypos = ypos + 5;
     }    
-    ypos = constrain(ypos, 0, )
+    ypos = constrain(ypos, 0, height);
+    
     fill("yellow");
     circle( xpos, ypos, 50 );
 }
