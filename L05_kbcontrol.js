@@ -15,7 +15,7 @@ function draw() {
     fill(shapeColor);
     if (shape === 'circle') circle(100,100,80);
     if (shape === 'rect') rect(150,150,100,80);
-    if (shape === 'triangle') triangle()
+    if (shape === 'triangle') triangle(50,300, 150,50, 300,300);
 }
 
 function keyPressed() {
