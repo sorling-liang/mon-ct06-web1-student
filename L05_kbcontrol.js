@@ -1,5 +1,5 @@
 // write your codes here
-let xpos = 0;
+let xpos = 100;
 
 // run once
 function setup() {
@@ -17,8 +17,8 @@ function draw() {
         xpos = xpos - 5;
     }
     fill("yellow");
-    circle( width/2 + xpos, height/2, 50 );
-    
+    circle( xpos, height/2, 50 );
+
 }
 
 // function keyPressed() {
