@@ -20,7 +20,7 @@ function keyPressed() {
     textSize(64);
     //   text  x   y
     text(key, 50, 50);
-    text(keyCode, 50, 100);
+    text(keyCode, 50, 120);
 }
 
 // function keyReleased() {
