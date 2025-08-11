@@ -1,5 +1,6 @@
 // write your codes here
 let xpos = 100;
+let ypos = 100;
 
 // run once
 function setup() {
@@ -16,6 +17,13 @@ function draw() {
     if ( keyIsDown(LEFT_ARROW) ) {
         xpos = xpos - 5;
     }
+    
+    if ( keyIsDown(RIGHT_ARROW) ) {
+        xpos = xpos + 5;
+    }
+    if ( keyIsDown(LEFT_ARROW) ) {
+        xpos = xpos - 5;
+    }    
     fill("yellow");
     circle( xpos, height/2, 50 );
 }
