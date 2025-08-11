@@ -4,7 +4,8 @@ let soundEffect, bgMusic, staticImage;
 // media files like images and sounds
 function preload() {
     soundEffect = loadSound("assets/pop.mp3");
-    bgMusic = loadSound("");
+    bgMusic = loadSound("assets/bossaNova.mp3");
+    staticImage = loadImage()
 }
 
 // run once
