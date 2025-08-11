@@ -13,9 +13,9 @@ function setup() {
 function draw() {
     background(220); // clear the drawing paper
     noStroke();
-    let xpos = 50;
-    let ypos = 50;
-    rect( xpos, ypos, rectSize, rectSize );
+    // let xpos = 50;
+    // let ypos = 50;
+    // rect( xpos, ypos, rectSize, rectSize );
 }
 
 function mousePressed() {
@@ -33,6 +33,7 @@ function keyPressed() {
     rectSize = 100;
     if (key === 'r') {
         fill("red");
+        circle()
     }
     else if (key === '9') {
         fill("cyan");
