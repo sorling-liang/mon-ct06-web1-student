@@ -1,4 +1,5 @@
 // write your codes here
+let soundEffect, bgMusic, staticImage;
 
 // media files like images and sounds
 function preload() {
