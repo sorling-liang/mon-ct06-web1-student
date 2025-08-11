@@ -31,6 +31,7 @@ function keyPressed() {
     else if (key === 'g') {
         background(220); // erase
         fill("green");
+        //    
         rect(100, 100, 100, 100);
     }
     else {
