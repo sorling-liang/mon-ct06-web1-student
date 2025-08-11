@@ -11,7 +11,7 @@ function setup() {
 }
 // repeatedly 60 times per second
 function draw() {
-    // background(220); // clear the drawing paper
+    background(220); // clear the drawing paper
     // noStroke();
 }
 
