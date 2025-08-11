@@ -18,11 +18,11 @@ function draw() {
         xpos = xpos - 5;
     }
 
-    if ( keyIsDown(RIGHT_ARROW) ) {
-        ypos = ypos + 5;
+    if ( keyIsDown(UP_ARROW) ) {
+        ypos = ypos - 5;
     }
-    if ( keyIsDown(LEFT_ARROW) ) {
-        xpos = xpos - 5;
+    if ( keyIsDown(DOWN_ARROW) ) {
+        pos = ypos + 5;
     }    
     fill("yellow");
     circle( xpos, height/2, 50 );
