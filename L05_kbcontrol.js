@@ -13,8 +13,8 @@ function setup() {
 function draw() {
     background(220); // clear the drawing paper
     noStroke();
-    // let xpos = 50;
-    // let ypos = 50;
+    let xpos = 50;
+    let ypos = 50;
     rect( xpos, ypos, rectSize, rectSize );
 }
 
