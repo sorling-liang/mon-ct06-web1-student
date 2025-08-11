@@ -36,6 +36,6 @@ function keyPressed() {
     }
 }
 
-function keyReleased() {
-    rectSize = 50;
-}
+// function keyReleased() {
+//     rectSize = 50;
+// }
