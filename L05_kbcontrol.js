@@ -1,8 +1,5 @@
 // write your codes here
-let circleSize = 5;
-let shapeColor = "Blue";
-
-let rectSize = 50;
+let xpos = 50;
 
 // run once
 function setup() {
@@ -13,6 +10,9 @@ function setup() {
 function draw() {
     background(220); // clear the drawing paper
     // noStroke();
+    if ( keyIsDown(RIGHT_ARROW) ) {
+        xpos = xpos + 5;
+    }
 }
 
 // function keyPressed() {
