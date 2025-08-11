@@ -16,6 +16,7 @@ function draw() {
 
 function keyPressed() {
 
+    if (key === 'c')
     // up arrow
     // UP_ARROW
     if (keyCode === 38) { 
@@ -23,6 +24,7 @@ function keyPressed() {
     }
 
     // down arrow
+    // DOWN_ARROW
     if (keyCode === 40) { 
         shapeColor = "black";
     }
