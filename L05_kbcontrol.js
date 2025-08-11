@@ -13,6 +13,7 @@ function setup() {
 function draw() {
     background(220); // clear the drawing paper
     fill(shapeColor);
+    if (shape === 'circle')
 }
 
 function keyPressed() {
