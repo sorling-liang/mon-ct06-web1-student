@@ -1,6 +1,7 @@
 // write your codes here
 let rectSize = 50;
-l
+let shapeColor = "blue";
+
 // run once
 function setup() {
     createCanvas(600, 400);
@@ -10,6 +11,7 @@ function setup() {
 // repeatedly 60 times per second
 function draw() {
     background(220); // clear the drawing paper
+    
 }
 
 function keyPressed() {
