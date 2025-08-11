@@ -6,6 +6,8 @@ let ypos = 100;
 function setup() {
     createCanvas(600, 400);
     background(220); // valid value 0-255
+    xpos = width / 2;
+    ypos = height / 2;
 }
 // repeatedly 60 times per second
 function draw() {
