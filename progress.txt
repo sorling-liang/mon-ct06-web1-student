@@ -21,6 +21,9 @@ so he advised to skip
  2. xxx
  3. xxx 
 
+so quickly cover width and height variable
+started on L4 mouse events
+
 #######################################
 
 lesson 3
