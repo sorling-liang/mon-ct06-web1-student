@@ -18,21 +18,11 @@ function draw() {
     // rect( xpos, ypos, rectSize, rectSize );
 }
 
-function mousePressed() {
-    // shapeColor = color(random(255), 0, random(255));
-    // fill(shapeColor);
-    // circleSize = 5;
-}
-
-function mouseDragged() {
-    // circle(mouseX, mouseY, circleSize);
-    // circleSize = circleSize + 0.5;
-}
-
 function keyPressed() {
     rectSize = 100;
     if (key === 'r') {
         fill("red");
+        //     x        y         diameter
         circle(width/2, height/2, 50);
     }
     else if (key === '9') {
