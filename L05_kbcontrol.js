@@ -18,7 +18,7 @@ function draw() {
 function keyPressed() {
 
     if (key === 'c') {
-
+        shape = 'circle';
     }
     if (key === 'r') {
         
