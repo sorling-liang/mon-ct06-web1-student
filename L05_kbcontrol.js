@@ -15,7 +15,7 @@ function draw() {
     noStroke();
     // let xpos = 50;
     // let ypos = 50;
-    // rect( xpos, ypos, rectSize, rectSize );
+    rect( xpos, ypos, rectSize, rectSize );
 }
 
 function mousePressed() {
