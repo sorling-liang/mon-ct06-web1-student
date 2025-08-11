@@ -17,10 +17,10 @@ function draw() {
 
 function keyPressed() {
     background(220);
-    textSize(16);
+    textSize(64);
     //   text  x   y
-    text(key, 50, 20);
-    text(keyCode, 50, 40);
+    text(key, 50, 50);
+    text(keyCode, 50, 100);
 }
 
 // function keyReleased() {
