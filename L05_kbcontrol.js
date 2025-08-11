@@ -23,7 +23,7 @@ function keyPressed() {
     if (key === 'r') {
         fill("red");
         //     x        y         diameter
-        circle(width/2, height/2, 50);
+        circle(width/2, height/2, 100);
     }
     else if (key === '9') {
         fill("cyan");
