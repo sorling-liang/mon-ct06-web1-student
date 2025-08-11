@@ -18,6 +18,7 @@ function draw() {
 function keyPressed() {
     rectSize = 100;
     if (key === 'r') {
+        background(220);
         fill("red");
         //     x        y         diameter
         circle(width/2, height/2, 100);
