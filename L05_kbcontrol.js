@@ -1,13 +1,11 @@
 // write your codes here
-let xpos = 100;
-let ypos = 100;
+let rectSize = 50;
 
 // run once
 function setup() {
     createCanvas(600, 400);
     background(220); // valid value 0-255
-    xpos = width / 2;
-    ypos = height / 2;
+
 }
 // repeatedly 60 times per second
 function draw() {
