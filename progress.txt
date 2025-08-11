@@ -23,9 +23,9 @@ so he advised to skip
 
 so quickly cover width and height variable
 started on L4 mouse events
+stopped before mouseDragged() function 
 
 #######################################
-
 lesson 3
 
 lesson 2
