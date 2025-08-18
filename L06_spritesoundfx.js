@@ -10,7 +10,7 @@ function preload() {
 
 // run once
 function setup() {
-    createCanvas(600, 400);
+    createCanvas(200, 200);
     background(220); // valid value 0-255
 }
 
