@@ -34,6 +34,8 @@ function draw() {
 
     // DOWN_ARROW
     // UP_ARROW
+    if (keyCode === LEFT_ARROW) {
+
 }
 
 function keyPressed() {
