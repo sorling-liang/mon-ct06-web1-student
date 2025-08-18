@@ -2,9 +2,9 @@
 
 function setup() {
     createCanvas(800, 600);
-    background()
+    background("steelblue");
 }
 
 function draw() {
-
+    triangle()
 }
