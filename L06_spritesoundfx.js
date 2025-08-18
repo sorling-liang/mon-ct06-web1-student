@@ -24,10 +24,10 @@ function draw() {
     let h =133;
     image(staticImage, x,y,w,h);
 
-    if (keyIsDown(LEFT_ARROW)) {
+    if ( keyIsDown(LEFT_ARROW) ) {
         x = x-5;
     }
-    if ( keyIsDown(RIGHT_ARROW)) {
+    if ( keyIsDown(RIGHT_ARROW) ) {
         x = x+5;
     }
     x = constrain(x, 0, width-110);
