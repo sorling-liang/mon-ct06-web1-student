@@ -34,7 +34,7 @@ function draw() {
 
     // DOWN_ARROW
     // UP_ARROW
-    if (keyCode === UP_ARROW) {
+    if (keyIsDown(UP_ARROW)) {
         y = y -5;
     }
     if (keyCode === DOWN_ARROW) {
