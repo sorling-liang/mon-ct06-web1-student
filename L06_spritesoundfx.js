@@ -23,3 +23,7 @@ function draw() {
     let h =133;
     image(staticImage, x,y,w,h);
 }
+
+function keyPressed() {
+    
+}
