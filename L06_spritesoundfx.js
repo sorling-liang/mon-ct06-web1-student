@@ -12,7 +12,6 @@ function preload() {
 function setup() {
     createCanvas(200, 200);
     bgMusic.loop();
-    background(220); // valid value 0-255
 }
 
 // repeatedly 60 times per second
