@@ -19,7 +19,6 @@ function setup() {
 // repeatedly 60 times per second
 function draw() {
     background("lightblue");
-    
 
     let w =110;
     let h =133;
