@@ -1,5 +1,6 @@
 // write your codes here
 let soundEffect, bgMusic, staticImage;
+let x =0;
 
 // media files like images and sounds
 function preload() {
@@ -17,7 +18,7 @@ function setup() {
 // repeatedly 60 times per second
 function draw() {
     background("lightblue");
-    let x =0;
+    
     let y =0;
     let w =110;
     let h =133;
