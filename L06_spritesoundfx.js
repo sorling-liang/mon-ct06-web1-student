@@ -25,7 +25,7 @@ function draw() {
     image(staticImage, x,y,w,h);
 
     if (keyCode === LEFT_ARROW) {
-
+        
     }
     if (keyCode === RIGHT_ARROW) {
 
