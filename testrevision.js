@@ -1,5 +1,7 @@
 // test preparation
-
+let x = 0;
+let y = 0;
+let w = 
 function setup() {
     createCanvas(800, 600);
     background("steelblue");
