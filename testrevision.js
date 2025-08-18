@@ -14,6 +14,6 @@ function draw() {
     // x3, y3
     // triangle(350,300, 450,300, 400,200);
     for (let count=0; count<4; count++) {
-        
+        rect()
     }
 }
