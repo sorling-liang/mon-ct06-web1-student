@@ -7,6 +7,7 @@ let h = 30;
 function setup() {
     createCanvas(800, 600);
     background("steelblue");
+    noLoop();
 }
 
 function draw() {
