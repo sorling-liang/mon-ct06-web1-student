@@ -37,7 +37,7 @@ function draw() {
     if (keyIsDown(UP_ARROW)) {
         y = y -5;
     }
-    if (keyCode === DOWN_ARROW) {
+    if (keyIsDown(DOWN_ARROW)) {
         y = y +5;
     }
     y = constrain(y, 0, height-133);
