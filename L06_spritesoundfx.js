@@ -28,7 +28,7 @@ function draw() {
         x = x-5;
     }
     if (keyCode === RIGHT_ARROW) {
-
+        x = x+5;
     }
 }
 
