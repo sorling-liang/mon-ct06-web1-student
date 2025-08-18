@@ -18,6 +18,8 @@ function setup() {
 function draw() {
     background("lightblue");
     let x =0;
-    let y =
+    let y =0;
+    let w =110;
+    let h =133;
     image(staticImage, x,y,w,h);
 }
