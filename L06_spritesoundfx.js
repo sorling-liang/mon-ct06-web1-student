@@ -30,6 +30,7 @@ function draw() {
     if (keyCode === RIGHT_ARROW) {
         x = x+5;
     }
+    x = constrain(x, 0, width);
 }
 
 function keyPressed() {
