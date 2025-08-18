@@ -11,10 +11,10 @@ function preload() {
 // run once
 function setup() {
     createCanvas(200, 200);
-    bgMusic.loop();
+    bgMusic.loop(); // non stop playing
 }
 
 // repeatedly 60 times per second
 function draw() {
-
+    
 }
