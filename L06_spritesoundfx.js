@@ -24,7 +24,7 @@ function draw() {
     let h =133;
     image(staticImage, x,y,w,h);
 
-    if (keyCode === LEFT_ARROW) {
+    if (keyIsDown(LEFT_ARROW)) {
         x = x-5;
     }
     if (keyIsDown(RIGHT_ARROW)) {
