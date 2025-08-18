@@ -22,7 +22,7 @@ function draw() {
     for (let count=0; count<5; count++) {
         fill(gray);
         rect(x, y, w, h);
-        x = x+ 40;
+        x = x+ 40; // keep changing the xpos
         gray = gray + 50;
     }
 }
