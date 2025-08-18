@@ -27,17 +27,17 @@ function draw() {
     if (keyIsDown(LEFT_ARROW)) {
         x = x-5;
     }
-    if (keyIsDown(RIGHT_ARROW)) {
+    if ( keyIsDown(RIGHT_ARROW)) {
         x = x+5;
     }
     x = constrain(x, 0, width-110);
 
     // DOWN_ARROW
     // UP_ARROW
-    if (keyIsDown(UP_ARROW)) {
+    if ( keyIsDown(UP_ARROW) ) {
         y = y -5;
     }
-    if (keyIsDown(DOWN_ARROW)) {
+    if ( keyIsDown(DOWN_ARROW) ) {
         y = y +5;
     }
     y = constrain(y, 0, height-133);
