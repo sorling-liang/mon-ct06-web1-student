@@ -40,7 +40,7 @@ function draw() {
     if (keyCode === DOWN_ARROW) {
         y = y +5;
     }
-
+    y = constrain()
 }
 
 function keyPressed() {
