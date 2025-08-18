@@ -17,5 +17,7 @@ function setup() {
 // repeatedly 60 times per second
 function draw() {
     background("lightblue");
+    let x =0;
+    let y =
     image(staticImage, x,y,w,h);
 }
