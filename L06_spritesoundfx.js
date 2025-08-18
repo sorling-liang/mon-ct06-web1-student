@@ -12,7 +12,7 @@ function preload() {
 
 // run once
 function setup() {
-    createCanvas(400, 200);
+    createCanvas(400, 400);
     bgMusic.loop(); // non stop playing
 }
 
