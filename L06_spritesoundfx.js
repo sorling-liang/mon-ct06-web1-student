@@ -11,6 +11,7 @@ function preload() {
 // run once
 function setup() {
     createCanvas(200, 200);
+    bgMusic.loop();
     background(220); // valid value 0-255
 }
 
