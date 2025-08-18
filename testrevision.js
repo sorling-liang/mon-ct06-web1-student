@@ -13,14 +13,16 @@ function setup() {
 
 function draw() {
     
-    
     // 3 vertices
     // x1, y1,
     // x2, y2,
     // x3, y3
     // triangle(350,300, 450,300, 400,200);
+
     for (let count=0; count<4; count++) {
+        fill(gray);
         rect(x, y, w, h);
         x = x+ 40;
+        gray = gray + 50;
     }
 }
