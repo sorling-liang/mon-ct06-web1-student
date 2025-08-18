@@ -37,6 +37,9 @@ function draw() {
     if (keyCode === UP_ARROW) {
         y = y -5;
     }
+    if (keyCode === DOWN_ARROW) {
+        y = y +5;
+    }
 
 }
 
