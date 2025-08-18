@@ -1,6 +1,6 @@
 // test preparation
-let x = 0;
-let y = 0;
+let x = 100;
+let y = 100;
 let w = 30;
 let h = 30;
 
