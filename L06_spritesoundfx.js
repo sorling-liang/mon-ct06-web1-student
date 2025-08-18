@@ -23,8 +23,11 @@ function draw() {
     let w =110;
     let h =133;
     image(staticImage, x,y,w,h);
-    
+
     if (keyCode === LEFT_ARROW) {
+
+    }
+    if (keyCode === RIGHT_ARROW) {
 
     }
 }
