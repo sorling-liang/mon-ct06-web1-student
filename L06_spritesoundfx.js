@@ -3,7 +3,8 @@ let soundEffect, bgMusic, staticImage;
 let x =0;
 let y =0;
 let secondguy;
-let secondguyX, se
+let secondguyX, secondguyY;
+
 // media files like images and sounds
 function preload() {
     soundEffect = loadSound("assets/pop.mp3");
