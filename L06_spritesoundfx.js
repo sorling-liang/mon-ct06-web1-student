@@ -17,6 +17,8 @@ function preload() {
 function setup() {
     createCanvas(400, 400);
     bgMusic.loop(); // non stop playing
+    secondguyX = 200;
+    secondguyY = 200;
 }
 
 // repeatedly 60 times per second
@@ -27,12 +29,12 @@ function draw() {
     let h =133;
     image(staticImage, x,y,w,h);
 
-    secondguyX = 200;
-    secondguyY = 200;
     image(secondguy, secondguyX, secondguyY, 96,128);
 
-    if ( keyIsDown()
-    )
+    if ( keyIsDown(87) ) {
+        secondguyY = secondguyY-5;
+    }
+    
     if ( keyIsDown(LEFT_ARROW) ) {
         x = x-5;
     }
