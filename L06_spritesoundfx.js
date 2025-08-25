@@ -31,6 +31,8 @@ function draw() {
     secondguyY = 200;
     image(secondguy, secondguyX, secondguyY, 96,128);
 
+    if ( keyIsDown()
+    )
     if ( keyIsDown(LEFT_ARROW) ) {
         x = x-5;
     }
