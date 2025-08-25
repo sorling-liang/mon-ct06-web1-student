@@ -9,7 +9,7 @@ function preload() {
     soundEffect = loadSound("assets/pop.mp3");
     bgMusic = loadSound("assets/bossaNova.mp3");
     staticImage = loadImage("assets/pico-a.png"); // picture
-    secondguy = loadImage('assets/penguin2');
+    secondguy = loadImage('assets/penguin2-c.svg');
 }
 
 // run once
