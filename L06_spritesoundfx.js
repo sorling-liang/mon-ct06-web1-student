@@ -31,6 +31,7 @@ function draw() {
 
     image(secondguy, secondguyX, secondguyY, 96,128);
 
+    // w key
     if ( keyIsDown(87) ) {
         secondguyY = secondguyY-5;
     }
