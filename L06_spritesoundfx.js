@@ -26,6 +26,8 @@ function draw() {
     let w =110;
     let h =133;
     image(staticImage, x,y,w,h);
+
+    secondguyX 
     image(secondguy, 200,200,96,128);
 
     if ( keyIsDown(LEFT_ARROW) ) {
