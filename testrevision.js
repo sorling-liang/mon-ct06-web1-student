@@ -10,5 +10,6 @@ function draw() {
 
     for ( let count =0; count<10; count++ ) {
         circle(xpos,50,50);
+        xpos = xpos+50;
     }
 }
