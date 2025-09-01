@@ -11,8 +11,10 @@ function draw() {
     let colorValue = 0; // 0 -255
 
     for ( let count =0; count<10; count++ ) {
+        fill( colorValue );
         circle(xpos, ypos, 50);
         xpos = xpos+50;
         ypos = ypos+50;
+        colorValue = colorValue + 25;
     }
 }
