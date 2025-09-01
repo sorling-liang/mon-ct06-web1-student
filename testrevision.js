@@ -6,5 +6,8 @@ function setup() {
 }
 
 function draw() {
-    circle(50,50,50);
+    let xpos = 50;
+
+    for ( let count =0; count<)
+    circle(xpos,50,50);
 }
