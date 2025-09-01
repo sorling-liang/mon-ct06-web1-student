@@ -8,8 +8,8 @@ function setup() {
 function draw() {
     fill("black");
     stroke("red");
-    str
+    strokeWeight(10);
     let middleX = width/2;
     let middleY = height/2;
-    circle(middleX, middleY, 100);
+    circle(middleX-200, middleY, 100);
 }
