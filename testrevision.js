@@ -11,7 +11,7 @@ function draw() {
     strokeWeight(10);
     let middleX = width/2;
     let middleY = height/2;
-    
-    circle(middleX-200, middleY, 100);
 
+    circle(middleX-200, middleY, 100);
+    rect(middleX, middleY)
 }
