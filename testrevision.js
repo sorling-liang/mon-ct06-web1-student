@@ -10,7 +10,7 @@ function draw() {
     let ypos = 50;
 
     for ( let count =0; count<10; count++ ) {
-        circle(xpos, 50, 50);
+        circle(xpos, ypos, 50);
         xpos = xpos+50;
         ypos = ypos+50;
     }
