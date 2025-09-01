@@ -8,5 +8,5 @@ function setup() {
 function draw() {
     let middleX = width/2;
     let middleY = height/2;
-    circle(middleX, middleY)
+    circle(middleX, middleY, 100);
 }
