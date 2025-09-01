@@ -15,5 +15,5 @@ function draw() {
     circle(middleX-200, middleY, 100);
     rect(middleX-50+150, middleY-50, 100, 100);
 
-    triangle(200,middleY,)
+    triangle(200,middleY, middleX,   500, middleY)
 }
