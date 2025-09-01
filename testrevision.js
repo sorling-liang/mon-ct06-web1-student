@@ -15,6 +15,6 @@ function draw() {
         circle(xpos, ypos, 50);
         xpos = xpos+50;
         ypos = ypos+50;
-        colorValue = colorValue + 50;
+        colorValue = colorValue + 15;
     }
 }
