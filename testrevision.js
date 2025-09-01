@@ -13,5 +13,5 @@ function draw() {
     let middleY = height/2;
 
     circle(middleX-200, middleY, 100);
-    rect(middleX-50, middleY-50, 100, 100);
+    rect(middleX-50+150, middleY-50, 100, 100);
 }
