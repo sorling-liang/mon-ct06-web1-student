@@ -6,5 +6,6 @@ function setup() {
 }
 
 function draw() {
+    let middleX = width/2;
 
 }
