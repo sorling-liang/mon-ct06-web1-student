@@ -6,6 +6,9 @@ function setup() {
 }
 
 function draw() {
+    fill("black");
+    stroke("red");
+    str
     let middleX = width/2;
     let middleY = height/2;
     circle(middleX, middleY, 100);
