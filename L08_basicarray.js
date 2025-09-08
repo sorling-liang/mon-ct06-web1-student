@@ -12,7 +12,10 @@ function setup() {
     fill("cyan");
     textSize(32);
     text("Hello my friend!", 20, 50);
+    text("Hello my friend!", 20, 70);
+
 }
+
 
 // repeatedly 60 times per second
 function draw() {
