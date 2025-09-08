@@ -14,7 +14,8 @@ function draw() {
     background(80);
     circle(x, height/2, ballSize);
 
-    
+    x = x + speedX;
+    y = y + speedY;
 
     // if (keyIsDown(LEFT_ARROW)) {
     //     x = x -5;
