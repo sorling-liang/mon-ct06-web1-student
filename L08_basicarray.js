@@ -1,7 +1,8 @@
 // write your codes here
+let soundsfx;
 
 function preload() {
-
+    soundsfx = loadSound();
 }
 
 // run once
