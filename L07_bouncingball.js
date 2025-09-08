@@ -5,7 +5,7 @@ let speedX = 2; // along left (negative) and right (positive)
 let speedY = 2; // along up (negative) and down (positive)
 
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(400, 600);
     background(80); // valid value 0-255
     fill("yellow");
 }
