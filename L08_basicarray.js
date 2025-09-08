@@ -13,5 +13,7 @@ function setup() {
 
 // repeatedly 60 times per second
 function draw() {
-
+    if ( keyIsDown(32) ) {
+        soundsfx.play();
+    }
 }
