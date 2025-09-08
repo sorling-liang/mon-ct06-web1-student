@@ -19,13 +19,13 @@ function draw() {
     y = y + speedY;
 
     if (x > 400) {
-        speedX = speedX * (-1)
+        speedX = speedX * (-1) * 1.1
     }
     if (x < 0) {
-        speedX = speedX * (-1)
+        speedX = speedX * (-1)* 1.1
     }
     if (y > 400) {
-        speedY = speedY * (-1)
+        speedY = speedY * (-1)* 1.1
     }
     if (y < 0) {
         speedY = speedY * (-1)
