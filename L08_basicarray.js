@@ -17,7 +17,7 @@ function setup() {
 
     let favFoods = ["pizza", "chicken wings", "bbt", "ice cream", "chocolates"];
     for (let index=0; index < favFoods.length; index++ ) {
-        
+
     }
 
     // let xpos = 100;
@@ -25,7 +25,7 @@ function setup() {
     //     circle(xpos,200,50);
     //     xpos = xpos + 55;
     // }
-} // brace for setup()
+} // braces for setup()
 
 
 // repeatedly 60 times per second
