@@ -2,8 +2,10 @@
 let soundEffect, bgMusic, staticImage;
 let x =0;
 let y =0;
+
 let secondguy;
-let secondguyX, secondguyY;
+let secondguyX = 200;
+let secondguyY = 200;
 
 // media files like images and sounds
 function preload() {
@@ -17,8 +19,6 @@ function preload() {
 function setup() {
     createCanvas(400, 400);
     bgMusic.loop(); // non stop playing
-    secondguyX = 200;
-    secondguyY = 200;
 }
 
 // repeatedly 60 times per second
@@ -29,13 +29,29 @@ function draw() {
     let h =133;
     image(staticImage, x,y,w,h);
 
+    //                   x         y         w   h
     image(secondguy, secondguyX, secondguyY, 96,128);
 
     // w key
     if ( keyIsDown(87) ) {
-        secondguyY = secondguyY-5;
+        secondguyY = secondguyY-5; // go up
     }
-    
+    // s key
+    if ( keyIsDown(83) ) {
+        secondguyY = secondguyY+5; // come down
+    }
+    secondguyY = constrain(secondguyY, 0, width-110);
+
+    // d key
+    if ( keyIsDown(68) ) {
+        secondguyX = secondguyX +5; // go right
+    }
+    // a key
+    if ( keyIsDown(65) ) {
+        secondguyX = secondguyX -5; // go left
+    }
+    secondguyX = constrain(secondguyX, 0, width-110);
+
     if ( keyIsDown(LEFT_ARROW) ) {
         x = x-5;
     }
