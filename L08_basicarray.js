@@ -2,7 +2,7 @@
 let soundsfx;
 
 function preload() {
-    soundsfx = loadSound('assets/star_wars_theme');
+    soundsfx = loadSound('assets/star_wars_theme_8_bit.mp3');
 }
 
 // run once
