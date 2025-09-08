@@ -1,6 +1,6 @@
 let x = 50;
 let y = 50;
-let ballSize = 50;
+   let ballSize = 50;
 let speedX = 2; // along left (negative) and right (positive)
 let speedY = 2; // along up (negative) and down (positive)
 
