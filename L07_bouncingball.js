@@ -13,7 +13,7 @@ function setup() {
 function draw() {
     background(80);
     fill("yellow");
-    circle(x, height/2, ballSize);
+    circle(x, y, ballSize);
 
     x = x + speedX;
     y = y + speedY;
