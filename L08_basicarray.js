@@ -11,7 +11,7 @@ function setup() {
     background(80); // valid value 0-255
 
     textSize(32);
-    text("Hello my friend!", 0, 50);
+    text("Hello my friend!", 20, 50);
 }
 
 // repeatedly 60 times per second
