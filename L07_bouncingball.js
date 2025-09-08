@@ -7,13 +7,14 @@ let speedY = 2; // along up (negative) and down (positive)
 function setup() {
     createCanvas(400, 400);
     background(80); // valid value 0-255
+    fill("yellow");
 }
 
 // repeatedly 60 times per second
 function draw() {
     //background(80);
     noStroke();
-    fill("yellow");
+    
     circle(x, y, ballSize);
 
     x = x + speedX;
