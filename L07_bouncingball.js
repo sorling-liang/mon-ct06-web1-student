@@ -1,8 +1,8 @@
 let x = 200;
 let y = 200;
 let ballSize = 50;
-let speedX = 2;
-let speedY = 2;
+let speedX = 2; // along left and right
+let speedY = 2; // along up and down
 
 function setup() {
     createCanvas(400, 400);
