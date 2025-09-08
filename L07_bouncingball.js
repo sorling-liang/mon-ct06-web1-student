@@ -11,7 +11,7 @@ function setup() {
 
 // repeatedly 60 times per second
 function draw() {
-    background(80);
+    //background(80);
     fill("yellow");
     circle(x, y, ballSize);
 
