@@ -2,7 +2,7 @@
 let soundsfx;
 
 function preload() {
-    soundsfx = loadSound();
+    soundsfx = loadSound('');
 }
 
 // run once
