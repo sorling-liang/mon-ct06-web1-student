@@ -16,12 +16,12 @@ function setup() {
     text("Today is Monday!", 20, 90);
 
     let favFoods = ["pizza", "chicken wings", "bbt", "ice cream", "chocolates"];
-    
-    let xpos = 100;
-    for (let count=0; count<5; count++) {
-        circle(xpos,200,50);
-        xpos = xpos + 55;
-    }
+
+    // let xpos = 100;
+    // for (let count=0; count<5; count++) {
+    //     circle(xpos,200,50);
+    //     xpos = xpos + 55;
+    // }
 }
 
 
