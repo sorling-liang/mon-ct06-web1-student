@@ -18,6 +18,10 @@ function draw() {
     x = x + speedX;
     y = y + speedY;
 
+    if (x > 400) {
+        speedX = speedX 
+    }
+
     // if (keyIsDown(LEFT_ARROW)) {
     //     x = x -5;
     // }
