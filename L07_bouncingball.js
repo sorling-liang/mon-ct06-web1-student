@@ -27,7 +27,7 @@ function draw() {
     if (y > 400-25) {
         speedY = speedY * (-1) * 1.1
     }
-    if (y < 0) {
+    if (y < 0+25) {
         speedY = speedY * (-1) * 1.1
     }
 
