@@ -8,7 +8,7 @@ function preload() {
 // run once
 function setup() {
     createCanvas(600, 400);
-    background(80); // valid value 0-255
+    background(200); // valid value 0-255
 
     textSize(32);
     text("Hello my friend!", 20, 50);
