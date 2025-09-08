@@ -17,7 +17,7 @@ function setup() {
 
     let favFoods = ["pizza", "chicken wings", "bbt", "ice cream", "chocolates"];
     for (let index=0; index < favFoods.length; index++ ) {
-
+        console.log( favFoods[index] );
     }
 
     // let xpos = 100;
