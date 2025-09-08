@@ -9,6 +9,7 @@ function preload() {
 function setup() {
     createCanvas(600, 400);
     background(80); // valid value 0-255
+    
     fill("cyan");
     textSize(32);
     text("Hello my friend!", 20, 50);
@@ -16,7 +17,7 @@ function setup() {
 
     let xpos = 100;
     for (let count=0; count<5; count++) {
-        circle(xpos,100,50);
+        circle(xpos,200,50);
         xpos = xpos + 55;
     }
 }
