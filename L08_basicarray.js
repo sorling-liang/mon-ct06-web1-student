@@ -9,6 +9,9 @@ function preload() {
 function setup() {
     createCanvas(600, 400);
     background(80); // valid value 0-255
+
+    textSize(32);
+    text("Hello my friend!", 0, 50);
 }
 
 // repeatedly 60 times per second
