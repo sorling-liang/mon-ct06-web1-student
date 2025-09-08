@@ -1,5 +1,9 @@
 // write your codes here
 
+function preload() {
+
+}
+
 // run once
 function setup() {
     createCanvas(600, 400);
