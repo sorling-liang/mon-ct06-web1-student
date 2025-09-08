@@ -2,7 +2,7 @@
 let soundsfx;
 
 function preload() {
-    soundsfx = loadSound('???');
+    soundsfx = loadSound('assets/star_wars_theme');
 }
 
 // run once
