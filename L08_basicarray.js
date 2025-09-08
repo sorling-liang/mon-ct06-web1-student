@@ -13,7 +13,7 @@ function setup() {
 
 // repeatedly 60 times per second
 function draw() {
-    if ( keyIsDown(32) ) {
+    if ( keyIsDown(32) ) { // space key
         soundsfx.play();
     }
     if ( keyIsDown(DOWN_ARROW) ) {
