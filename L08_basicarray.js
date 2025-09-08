@@ -16,8 +16,10 @@ function setup() {
     text("Today is Monday!", 20, 90);
 
     let favFoods = ["pizza", "chicken wings", "bbt", "ice cream", "chocolates"];
+    for (let index=0; index < favFoods.length; index++ ) {
+        
+    }
 
-    
     // let xpos = 100;
     // for (let count=0; count<5; count++) {
     //     circle(xpos,200,50);
