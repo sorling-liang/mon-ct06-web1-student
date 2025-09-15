@@ -31,4 +31,8 @@ function draw() {
     textAlign(CENTER, CENTER);
     text("WELCOME", 0, 0);
     ypos = ypos - 0.6; // scroll
+
+    if ( ypos < 0 ) {
+        ypos = height;
+    }
 }
