@@ -14,9 +14,9 @@ function setup() {
 // repeatedly 60 times per second
 function draw() {
     if ( keyIsDown(32) ) {
-        soundsfx.play();
+        soundsfx.play(); // space key
     }
     else if ( keyIsDown(DOWN_ARROW) ) {
-        soundsfx.stop();
+        soundsfx.stop(); // stop the sound
     }
 }
