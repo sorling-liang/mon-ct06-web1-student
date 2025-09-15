@@ -8,7 +8,9 @@ function preload() {
 function setup() {
     createCanvas(400, 400);
     background(200);
-
+    fill("orange");
+    rect( width/2, height/2, 100, 25);
+    fill("black")
     textSize(32);
     textAlign(LEFT, TOP);
     text("WELCOME", width/2, height/2);
