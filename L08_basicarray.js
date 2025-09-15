@@ -19,7 +19,7 @@ function setup() {
     for (let index=0; index < favFoods.length; index++ ) {
         // python print()
         console.log( favFoods[index] );
-        text()
+        text( favFoods[index])
     }
 
 } // end of setup()
