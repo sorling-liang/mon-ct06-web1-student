@@ -32,6 +32,7 @@ function draw() {
 
     let starwars = [
         "long long long time ago...",
+        "there was a little girl...",
         ""
     ];
 
