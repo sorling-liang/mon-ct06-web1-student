@@ -22,7 +22,7 @@ function setup() {
         console.log( favFoods[index] );
         //                      x    y
         text( favFoods[index], 20, ypos);
-        ypos = ypos + 50;
+        ypos = ypos + 50; // go down to next line
     }
 
 } // end of setup()
