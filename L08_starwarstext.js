@@ -16,4 +16,7 @@ function draw() {
     if ( keyIsDown(32) ) {
         soundsfx.play();
     }
+    else if ( keyIsDown(DOWN_ARROW) ) {
+        soundsfx.stop();
+    }
 }
