@@ -38,7 +38,8 @@ function draw() {
     ];
 
     text(starwars[0],     0, 0);
-    text("second line", 0, 45); // y must increase
+    text(starwars[1], 0, 45); // y must increase
+    
     ypos = ypos - 0.6; // scroll
 
     if ( ypos < 0 ) {
