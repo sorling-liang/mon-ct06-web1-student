@@ -22,4 +22,6 @@ function draw() {
     if ( keyIsDown(DOWN_ARROW) ) {
         soundsfx.stop(); // stop the sound
     }
+
+    text("WELCOME")
 }
