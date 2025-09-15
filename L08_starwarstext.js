@@ -25,5 +25,6 @@ function draw() {
         soundsfx.stop(); // stop the sound
     }
 
+    translate( width/2, ypos );
     
 }
