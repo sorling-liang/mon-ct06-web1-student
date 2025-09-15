@@ -13,7 +13,7 @@ function setup() {
 
     fill("black")
     textSize(32);
-    textAlign(LEFT, TOP);
+    textAlign(CENTER, CENTER);
     text("WELCOME", width/2, height/2);
 
 }
