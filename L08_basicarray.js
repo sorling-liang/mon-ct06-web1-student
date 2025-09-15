@@ -14,7 +14,7 @@ function setup() {
 
     fill("black")
     textSize(32);
-    textAlign(RIGHT, BOTTOM); // X: 
+    textAlign(RIGHT, BOTTOM); // X: LEFT, RIGHT, CENTER
     text("WELCOME", width/2, height/2);
 
 }
