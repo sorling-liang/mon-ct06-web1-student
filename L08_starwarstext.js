@@ -26,5 +26,6 @@ function draw() {
     translate(width/2, ypos);
     textSize(32);
     textAlign(CENTER, CENTER);
+    fill("cyan");
     text("WELCOME", 0, 0);
 }
