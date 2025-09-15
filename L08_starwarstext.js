@@ -37,9 +37,10 @@ function draw() {
         "And mary has 3 little lambs.",
     ];
 
-    let textY = ypos;
+    let textY = 0;
     for (let index=0; index < starwars.length; index++) {
-        text(starwars[0], 0, 0);
+        text(starwars[index], 0, textY);
+        textY = textY + 45;
     }
  
 
