@@ -31,7 +31,9 @@ function draw() {
     textAlign(CENTER, CENTER);
 
     let starwars = [
-        ""];
+        "long long long time ago...",
+        ""
+    ];
 
     text("WELCOME",     0, 0);
     text("second line", 0, 45); // y must increase
