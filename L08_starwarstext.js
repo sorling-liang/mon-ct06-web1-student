@@ -35,6 +35,7 @@ function draw() {
         "there was a little girl...",
         "her name was Mary.",
         "And mary has 3 little lambs.",
+        ""
     ];
 
     let textY = 0;
@@ -43,7 +44,6 @@ function draw() {
         textY = textY + 45;
     }
  
-
     ypos = ypos - 0.6; // scroll
 
     if ( ypos < 0 ) {
