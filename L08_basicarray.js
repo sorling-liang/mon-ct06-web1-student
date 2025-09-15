@@ -17,7 +17,6 @@ function setup() {
     textAlign(RIGHT, BOTTOM); // X: LEFT, RIGHT, CENTER
                              // Y: TOP, CENTER, BOTTOM
     text("WELCOME", width/2, height/2);
-
 }
 
 // run once
