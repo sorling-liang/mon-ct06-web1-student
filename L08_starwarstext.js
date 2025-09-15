@@ -28,7 +28,7 @@ function draw() {
     translate( width/2, ypos );
     scale( 1, 3 );
     fill("cyan");
-    textSize(32);
+    textSize(18);
     textAlign(CENTER, CENTER);
 
     let starwars = [
@@ -42,7 +42,7 @@ function draw() {
     let textY = 0;
     for (let index=0; index < starwars.length; index++) {
         text(starwars[index], 0, textY);
-        textY = textY + 45;
+        textY = textY + 25;
     }
  
     ypos = ypos - 0.6; // scroll
