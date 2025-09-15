@@ -30,7 +30,7 @@ function draw() {
     textSize(32);
     textAlign(CENTER, CENTER);
     text("WELCOME",     0, 0);
-    text("second line", 0, 45);
+    text("second line", 0, 45); // y must increase
     ypos = ypos - 0.6; // scroll
 
     if ( ypos < 0 ) {
