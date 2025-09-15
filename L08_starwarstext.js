@@ -35,7 +35,7 @@ function draw() {
         "there was a little girl...",
         "her name was Mary.",
         "And mary has 3 little lambs.",
-        ""
+        "and the end."
     ];
 
     let textY = 0;
