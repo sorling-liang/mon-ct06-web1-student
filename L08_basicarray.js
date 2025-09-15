@@ -10,7 +10,7 @@ function setup() {
     background(200);
 
     textSize(32);
-    textAlign(CENTER, TOP);
+    textAlign(CENTER, BOTTOM);
     text("WELCOME", width/2, height/2);
 }
 
