@@ -21,12 +21,7 @@ function setup() {
         console.log( favFoods[index] );
     }
 
-    // let xpos = 100;
-    // for (let count=0; count<5; count++) {
-    //     circle(xpos,200,50);
-    //     xpos = xpos + 55;
-    // }
-} // braces for setup()
+} // end of setup()
 
 
 // repeatedly 60 times per second
