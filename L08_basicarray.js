@@ -12,7 +12,7 @@ function setup() {
     textSize(32);
     textAlign(LEFT, TOP);
     text("WELCOME", width/2, height/2);
-    rect( width/2, height/2, 100, 25);
+
 }
 
 // run once
