@@ -6,7 +6,7 @@ function preload() {
 }
 
 function setup() {
-    ca
+    createCanvas(400,400);
 }
 
 // run once
