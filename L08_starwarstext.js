@@ -29,6 +29,10 @@ function draw() {
     fill("cyan");
     textSize(32);
     textAlign(CENTER, CENTER);
+
+    let starwars = [
+        ""];
+
     text("WELCOME",     0, 0);
     text("second line", 0, 45); // y must increase
     ypos = ypos - 0.6; // scroll
