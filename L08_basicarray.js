@@ -15,11 +15,13 @@ function setup() {
     //text("Hello my friend!", 20, 50);
     //text("Today is Monday!", 20, 90);
 
+    let ypos = 50;
     let favFoods = ["pizza", "chicken wings", "bubble tea", "ice cream", "chocolates"];
     for (let index=0; index < favFoods.length; index++ ) {
         // python print()
         console.log( favFoods[index] );
-        text( favFoods[index], 20, )
+        text( favFoods[index], 20, ypos);
+        ypos = ypos + 50;
     }
 
 } // end of setup()
