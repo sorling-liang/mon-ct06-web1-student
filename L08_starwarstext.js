@@ -30,4 +30,5 @@ function draw() {
     textSize(32);
     textAlign(CENTER, CENTER);
     text("WELCOME", 0, 0);
+    ypos = ypos - 0.6; // scroll
 }
