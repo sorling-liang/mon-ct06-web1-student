@@ -10,6 +10,7 @@ function setup() {
     background(200);
     fill("orange");
     rect( width/2, height/2, 100, 25);
+    
     fill("black")
     textSize(32);
     textAlign(LEFT, TOP);
