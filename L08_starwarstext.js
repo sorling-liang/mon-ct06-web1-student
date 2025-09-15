@@ -23,7 +23,7 @@ function draw() {
         soundsfx.stop(); // stop the sound
     }
 
-    tranlate(width/2, ypos);
+    translate(width/2, ypos);
     textSize(32);
     textAlign(CENTER, CENTER);
     text("WELCOME", 0, 0);
