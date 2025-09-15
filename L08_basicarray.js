@@ -10,8 +10,8 @@ function setup() {
     background(200);
 
     textSize(32);
-    textAlign(CENTER, CENTER);
-    text("WELCOME home", width/2, height/2);
+    textAlign(CENTER, TOP);
+    text("WELCOME", width/2, height/2);
 }
 
 // run once
