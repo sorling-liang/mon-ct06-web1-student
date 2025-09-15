@@ -29,7 +29,7 @@ function draw() {
     fill("cyan");
     textSize(32);
     textAlign(CENTER, CENTER);
-    text("WELCOME", 0, 0);
+    text("WELCOME",     0, 0);
     text("second line", 0, 45);
     ypos = ypos - 0.6; // scroll
 
