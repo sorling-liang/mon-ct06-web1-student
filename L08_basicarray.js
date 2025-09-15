@@ -11,7 +11,7 @@ function setup() {
 
     textSize(32);
     textAlign(CENTER, CENTER);
-    
+    text("WELCOME", width/2, height/2);
 }
 
 // run once
