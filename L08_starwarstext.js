@@ -23,5 +23,7 @@ function draw() {
         soundsfx.stop(); // stop the sound
     }
 
-    text("WELCOME")
+    textSize(32);
+    
+    text("WELCOME", 0, 0);
 }
