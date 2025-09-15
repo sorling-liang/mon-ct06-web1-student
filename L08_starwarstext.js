@@ -25,10 +25,4 @@ function draw() {
         soundsfx.stop(); // stop the sound
     }
 
-    translate(width/2, ypos);
-    textSize(32);
-    textAlign(CENTER, CENTER);
-    fill("cyan");
-    text("WELCOME", 0, 0);
-    ypos = ypos - 1;
 }
