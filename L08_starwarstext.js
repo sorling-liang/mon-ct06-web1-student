@@ -37,9 +37,9 @@ function draw() {
         "And mary has 3 little lambs."
     ];
 
-    text(starwars[0],     0, 0);
+    text(starwars[0], 0, 0);
     text(starwars[1], 0, 45); // y must increase
-    
+
     ypos = ypos - 0.6; // scroll
 
     if ( ypos < 0 ) {
