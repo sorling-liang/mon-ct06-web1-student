@@ -20,6 +20,7 @@ function setup() {
     for (let index=0; index < favFoods.length; index++ ) {
         // python print()
         console.log( favFoods[index] );
+        //                      x    y
         text( favFoods[index], 20, ypos);
         ypos = ypos + 50;
     }
