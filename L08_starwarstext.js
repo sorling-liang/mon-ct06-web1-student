@@ -38,9 +38,9 @@ function draw() {
     ];
 
     let textY = ypos;
-    for (let index=0; index < starwars.length; index++ 
-    )
-    text(starwars[0], 0, 0);
+    for (let index=0; index < starwars.length; index++) {
+        text(starwars[0], 0, 0);
+    }
  
 
     ypos = ypos - 0.6; // scroll
