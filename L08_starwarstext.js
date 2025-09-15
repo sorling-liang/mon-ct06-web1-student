@@ -28,4 +28,5 @@ function draw() {
     textAlign(CENTER, CENTER);
     fill("cyan");
     text("WELCOME", 0, 0);
+    ypos = ypos - 0.6;
 }
