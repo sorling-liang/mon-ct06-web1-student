@@ -16,6 +16,8 @@ function setup() {
 
 // repeatedly 60 times per second
 function draw() {
+    background(80); // valid value 0-255
+
     if ( keyIsDown(32) ) {
         soundsfx.play(); // space key
     }
@@ -28,5 +30,5 @@ function draw() {
     textAlign(CENTER, CENTER);
     fill("cyan");
     text("WELCOME", 0, 0);
-    ypos = ypos - 0.6;
+    ypos = ypos - 1;
 }
