@@ -12,13 +12,14 @@ function setup() {
 
     fill("cyan");
     textSize(32);
-    text("Hello my friend!", 20, 50);
-    text("Today is Monday!", 20, 90);
+    //text("Hello my friend!", 20, 50);
+    //text("Today is Monday!", 20, 90);
 
     let favFoods = ["pizza", "chicken wings", "bubble tea", "ice cream", "chocolates"];
     for (let index=0; index < favFoods.length; index++ ) {
         // python print()
         console.log( favFoods[index] );
+        text()
     }
 
 } // end of setup()
