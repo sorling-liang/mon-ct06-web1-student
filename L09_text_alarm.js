@@ -32,6 +32,9 @@ function draw() {
     text("time now " + aHour + ":" + aMinute + ":" + aSecond + " PM", width/2, height/2);
 }
 
+function mousePressed() {
+    
+}
 
 // repeatedly 60 times per second
 // function draw() {
