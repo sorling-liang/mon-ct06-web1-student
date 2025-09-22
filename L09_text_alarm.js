@@ -8,5 +8,6 @@ function setup() {
 
 // repeatedly 60 times per second
 function draw() {
-
+    textSize(32);
+    text("Bounce!", width/2, height/2)
 }
