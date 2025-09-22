@@ -12,8 +12,8 @@ function setup() {
 function draw() {
     background("pink"); // valid value 0-255
 
-    let hour24 = hour() -12;
-    let nowMinute = minute();
+    let ahour = hour() -12;
+    let aMinute = minute();
     textSize(32);
     textAlign(CENTER, CENTER);
     fill("red"); // change the text colour
