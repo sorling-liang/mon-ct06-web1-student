@@ -33,7 +33,7 @@ function draw() {
 }
 
 function mousePressed() {
-    
+    sfx.play();
 }
 
 // repeatedly 60 times per second
