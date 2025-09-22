@@ -3,7 +3,7 @@ let xpos;
 let velocityX = 0.6;
 
 function preload() {
-
+    ""
 }
 
 // run once
