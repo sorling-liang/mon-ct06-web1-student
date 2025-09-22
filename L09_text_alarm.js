@@ -29,7 +29,7 @@ function draw() {
 
     textSize(32);
     textAlign(CENTER, CENTER);
-    fill("red"); // change the text colour
+    fill("black"); // change the text colour
     text("time now " + aHour + ":" + aMinute + ":" + aSecond + " PM", width/2, height/2);
 }
 
