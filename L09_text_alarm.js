@@ -1,5 +1,6 @@
 // write your codes here
 let xpos;
+let velocityX = 0.6;
 
 // run once
 function setup() {
