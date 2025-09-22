@@ -12,7 +12,7 @@ function setup() {
 function draw() {
     background("pink"); // valid value 0-255
 
-    let hour24 = (hour() + 1)/2;
+    let hour24 =hour() -12;
     let nowMinute = minute();
     textSize(32);
     textAlign(CENTER, CENTER);
