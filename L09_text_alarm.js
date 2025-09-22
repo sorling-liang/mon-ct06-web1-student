@@ -17,7 +17,7 @@ function draw() {
     textSize(32);
     textAlign(CENTER, CENTER);
     fill("red"); // change the text colour
-    text("hour is " + hour24 + ":" + nowMinute, width/2, height/2);
+    text("now is " + hour24 + ":" + nowMinute, width/2, height/2);
 }
 
 
