@@ -5,6 +5,7 @@ let xpos;
 function setup() {
     createCanvas(600, 400);
     background("pink"); // valid value 0-255
+    xpos = width/2;
 }
 
 // repeatedly 60 times per second
