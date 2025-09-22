@@ -30,7 +30,8 @@ function draw() {
     textSize(32);
     textAlign(CENTER, CENTER);
     fill("black"); // change the text colour
-    text("time now " + aHour + ":" + aMinute + ":" + aSecond + " PM", width/2, height/2);
+    text("time now " + aHour + ":" + aMinute + ":" + aSecond + " PM", width/2, 150);
+    
 }
 
 function mousePressed() {
