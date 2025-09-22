@@ -38,6 +38,7 @@ function mousePressed() {
 }
 
 function keyPressed() {
+    // space key  keycode.info
     if (keyCode === 32) {
         bgcolor = color( random(255), random(255), random(255) );
     }
