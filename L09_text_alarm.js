@@ -13,6 +13,7 @@ function draw() {
     background("pink"); // valid value 0-255
 
     let aHour = hour() -12;
+    aHour = nf(aHour, 2)
     let aMinute = minute();
     let aSecond = second();
     textSize(32);
