@@ -2,6 +2,7 @@
 let xpos;
 let velocityX = 0.6;
 let sfx;
+let bgcolor;
 
 function preload() {
     sfx = loadSound("assets/DunDunDunnn.mp3");
