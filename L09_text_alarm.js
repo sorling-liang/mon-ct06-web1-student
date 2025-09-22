@@ -13,7 +13,7 @@ function draw() {
     let hour24 = hour();
     textSize(32);
     textAlign(CENTER, CENTER);
-    fill("red");
+    fill("red"); // change the text colour
     text("hour is " + hour24, width/2, height/2);
 }
 
