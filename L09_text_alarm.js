@@ -1,4 +1,5 @@
 // write your codes here
+let xpos;
 
 // run once
 function setup() {
