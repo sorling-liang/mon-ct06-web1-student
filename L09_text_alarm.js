@@ -11,12 +11,12 @@ function preload() {
 // run once
 function setup() {
     createCanvas(600, 400);
-    background("pink"); // valid value 0-255
+    background(bgcolor); // valid value 0-255
     xpos = width/2;
 }
 
 function draw() {
-    background("pink"); // valid value 0-255
+    background(bgcolor); // valid value 0-255
 
     let aHour = hour() -12;
     aHour = nf(aHour, 2); // a 2-digit number
