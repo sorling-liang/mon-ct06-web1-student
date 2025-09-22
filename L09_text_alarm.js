@@ -14,4 +14,5 @@ function draw() {
     textAlign(CENTER, CENTER);
     fill("purple");
     text("Bounce!", xpos, height/2);
+    xpos = xpos + 0.6;
 }
