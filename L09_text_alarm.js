@@ -20,11 +20,11 @@ function draw() {
 
     let aSecond = second();
     aSecond = nf(aSecond, 2);
-    
+
     textSize(32);
     textAlign(CENTER, CENTER);
     fill("red"); // change the text colour
-    text("time now " + aHour + ":" + aMinute + ":" + aSecond, width/2, height/2);
+    text("time now " + aHour + ":" + aMinute + ":" + aSecond + " PM", width/2, height/2);
 }
 
 
