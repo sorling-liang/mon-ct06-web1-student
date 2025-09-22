@@ -14,7 +14,7 @@ function draw() {
     textSize(32);
     textAlign(CENTER, CENTER);
     fill("red");
-    text("hour is ")
+    text("hour is " + hour24, width/2, height/2);
 }
 
 
