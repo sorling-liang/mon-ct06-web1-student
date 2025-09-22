@@ -11,6 +11,7 @@ function setup() {
 
 function draw() {
     let hour24 = hour();
+    textSize()
 }
 
 
