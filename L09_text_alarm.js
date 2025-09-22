@@ -13,13 +13,13 @@ function draw() {
     background("pink"); // valid value 0-255
 
     let aHour = hour() -12;
-    aHour = nf(aHour, 3); // a 2-digit number
+    aHour = nf(aHour, 2); // a 2-digit number
 
     let aMinute = minute();
-    aMinute = nf(aMinute, 3);
+    aMinute = nf(aMinute, 2);
 
     let aSecond = second();
-    aSecond = nf(aSecond, 3);
+    aSecond = nf(aSecond, 2);
 
     textSize(32);
     textAlign(CENTER, CENTER);
