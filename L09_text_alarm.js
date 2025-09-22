@@ -17,8 +17,11 @@ function draw() {
     fill("purple");
     text("Bounce!", xpos, height/2);
     xpos = xpos + velocityX;
-    
+
     if (xpos > width) {
         velocityX = velocityX * -1;
+    }
+    else if (xpos === 0) {
+
     }
 }
