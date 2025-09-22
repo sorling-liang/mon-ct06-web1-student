@@ -33,7 +33,8 @@ function draw() {
     text("time now " + aHour + ":" + aMinute + ":" + aSecond + " PM", width/2, 150);
     textSize(18);
     fill("red");
-    text("Countdown Timer:", width/2, 180);
+    text("Countdown Timer:", width/2, 200);
+    text("0")
 }
 
 function mousePressed() {
