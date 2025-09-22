@@ -31,7 +31,8 @@ function draw() {
     textAlign(CENTER, CENTER);
     fill("black"); // change the text colour
     text("time now " + aHour + ":" + aMinute + ":" + aSecond + " PM", width/2, 150);
-    
+    textSize(18);
+    text("Countdown Timer:")
 }
 
 function mousePressed() {
