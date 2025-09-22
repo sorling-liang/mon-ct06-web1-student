@@ -19,7 +19,8 @@ function draw() {
     aMinute = nf(aMinute, 2);
 
     let aSecond = second();
-    aSecond = nf( aSecond, 2);
+    aSecond = nf(aSecond, 2);
+    
     textSize(32);
     textAlign(CENTER, CENTER);
     fill("red"); // change the text colour
