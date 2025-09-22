@@ -37,6 +37,10 @@ function mousePressed() {
     sfx.play();
 }
 
+function keyPressed() {
+    
+}
+
 // repeatedly 60 times per second
 // function draw() {
 //     background("pink"); // valid value 0-255
