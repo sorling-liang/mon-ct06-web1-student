@@ -14,7 +14,10 @@ function draw() {
 
     let aHour = hour() -12;
     aHour = nf(aHour, 2); // a 2-digit number
+    
     let aMinute = minute();
+    aMinute = nf(aMinute, 2);
+
     let aSecond = second();
     textSize(32);
     textAlign(CENTER, CENTER);
