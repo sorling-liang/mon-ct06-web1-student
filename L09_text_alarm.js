@@ -35,7 +35,7 @@ function draw() {
     fill("red");
     text("Countdown Timer:", width/2, 200);
     text("0", width/2, 225);
-    text();
+    text("Click me to start the timer");
 }
 
 function mousePressed() {
