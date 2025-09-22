@@ -3,7 +3,7 @@ let xpos;
 let velocityX = 0.6;
 
 function preload() {
-    "assets/DunDunDunnn.mp3"
+    load("assets/DunDunDunnn.mp3");
 }
 
 // run once
