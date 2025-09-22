@@ -1,9 +1,10 @@
 // write your codes here
 let xpos;
 let velocityX = 0.6;
+let sfx;
 
 function preload() {
-    load("assets/DunDunDunnn.mp3");
+    sfx = loadSound("assets/DunDunDunnn.mp3");
 }
 
 // run once
