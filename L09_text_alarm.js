@@ -38,7 +38,9 @@ function mousePressed() {
 }
 
 function keyPressed() {
-    
+    if (keyCode === 32) {
+        
+    }
 }
 
 // repeatedly 60 times per second
