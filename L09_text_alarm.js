@@ -4,6 +4,13 @@ let velocityX = 0.6;
 let sfx;
 let bgcolor = "pink";
 
+let objectID;
+let counter = 10;
+
+// need a second interval
+let secondID;
+
+
 function preload() {
     sfx = loadSound("assets/DunDunDunnn.mp3");
 }
@@ -13,6 +20,28 @@ function setup() {
     createCanvas(600, 400);
     background(bgcolor); // valid value 0-255
     xpos = width/2;
+}
+
+function countdown() {
+    counter--; // reduce by 1
+    counter = constrain(counter, 0, 10);
+
+    if (counter === 0) {
+        // play the sound (alarm)
+        sfx.play();
+        clearInterval( objectID ); // clear the timer object
+
+        secondID = setInterval(changeColor, 500); // half a second
+    }
+}
+let colorChanged = 0;
+function changeColor() {
+    colorChanged++; // increase by 1
+    if (colorChanged > 5) {
+        clearInterval(secondID); // remove the timer
+    }
+
+    bgcolor = color( random(255), random(255), random(255) );
 }
 
 function draw() {
@@ -34,20 +63,26 @@ function draw() {
     textSize(18);
     fill("red");
     text("Countdown Timer:", width/2, 200);
-    text("0", width/2, 225);
+    text(counter, width/2, 225);
     text("Click me to start the timer", width/2, 290);
+
+    // let pie = 3.1415912345567;
+    // console.log( nf(pie, 1, 3) ); // 3 decimal place
 }
 
 function mousePressed() {
-    sfx.play();
-}
-
-function keyPressed() {
-    // space key website  keycode.info
-    if (keyCode === 32) {
-        bgcolor = color( random(255), random(255), random(255) );
+    //sfx.play();
+    if (counter === 10) {
+        objectID = setInterval(countdown, 1000); // 1 second
     }
 }
+
+// function keyPressed() {
+//     // space key website  keycode.info
+//     if (keyCode === 32) {
+//         bgcolor = color( random(255), random(255), random(255) );
+//     }
+// }
 
 // repeatedly 60 times per second
 // function draw() {
