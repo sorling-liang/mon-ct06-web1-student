@@ -27,5 +27,5 @@ function draw() {
 
     fill("black");
     textSize(48);
-    text(username, 150, 100);
+    text(username, 150, 120);
 }
