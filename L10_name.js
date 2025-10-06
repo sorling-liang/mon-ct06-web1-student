@@ -52,7 +52,7 @@ function draw() {
     background( colorPicker.value() );
     fill("white");
     stroke("blue");
-    strokeWeight(5);
+    strokeWeight();
     rect(100, 50, 400, 200, 25);
 
     fill("black");
