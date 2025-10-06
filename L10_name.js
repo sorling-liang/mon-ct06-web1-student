@@ -21,6 +21,8 @@ function setup() {
     userInput = createInput(username);
     userInput.position(width/2,   height/2 + 40);
     userInput.input(updateName); // connect the changes
+
+    
 }
 
 function updateName() {
