@@ -16,7 +16,7 @@ function setup() {
 
     // step 2: create the input field
     userInput = createInput(username);
-    userInput.position(width/2,   height/2 + 100);
+    userInput.position(width/2,   height/2 + 70);
 }
 
 // repeatedly 60 times per second
