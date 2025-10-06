@@ -7,7 +7,7 @@ function setup() {
     createCanvas(600, 600);
     background(bgColor); // valid value 0-255
 
-    colorPicker = createColorPicker();
+    colorPicker = createColorPicker(bgColor);
     colorPicker.position(width/2, height/2);
 }
 
