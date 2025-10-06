@@ -24,7 +24,7 @@ function setup() {
     userInput = createInput(username);
     userInput.position(width/2,   height/2 + 40);
     userInput.size(250); // wider
-    userInput.input(updateName); // connect the changes
+    // userInput.input(updateName); // connect the changes
 
     ageInput = createInput(age, "number"); // date, time, text, number, password
     ageInput.position(width/2, height/2 + 72);
@@ -41,9 +41,9 @@ function updateDOB() {
 function updateAge() {
     age = ageInput.value();
 }
-function updateName() {
-    username = userInput.value();
-}
+// function updateName() {
+//     username = userInput.value();
+// }
 
 // repeatedly 60 times per second
 function draw() {
