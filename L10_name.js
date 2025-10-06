@@ -47,6 +47,8 @@ function updateAge() {
 
 // repeatedly 60 times per second
 function draw() {
+    username = userInput.value();
+    
     background( colorPicker.value() );
     fill("white");
     rect(100, 50, 400, 200, 25);
