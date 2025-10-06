@@ -6,6 +6,8 @@ let colorPicker;
 let username = "David";
 let userInput;
 
+
+
 // run once
 function setup() {
     createCanvas(600, 600);
