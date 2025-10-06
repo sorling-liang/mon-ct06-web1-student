@@ -17,9 +17,12 @@ function setup() {
     // step 2: create the input field
     userInput = createInput(username);
     userInput.position(width/2,   height/2 + 70);
-    userInput.input()
+    userInput.input(updateName);
 }
 
+function updateName() {
+    user
+}
 // repeatedly 60 times per second
 function draw() {
     background( colorPicker.value() );
