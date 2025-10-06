@@ -15,7 +15,7 @@ function setup() {
     colorPicker.position(width/2, height/2);
 
     userInput = createInput(username);
-    userInput.position(wi)
+    userInput.position(width/2, height/2 + 100);
 }
 
 // repeatedly 60 times per second
