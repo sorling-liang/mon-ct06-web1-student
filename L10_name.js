@@ -9,7 +9,7 @@ let userInput;
 let age = 99;
 let ageInput;
 
-let dob = "1/1/1990";
+let dob;
 let dobInput;
 
 // run once
