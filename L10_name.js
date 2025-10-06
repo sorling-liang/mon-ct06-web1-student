@@ -9,7 +9,8 @@ let userInput;
 let age = 99;
 let ageInput;
 
-let dob = 
+let dob;
+let dobInput;
 
 // run once
 function setup() {
