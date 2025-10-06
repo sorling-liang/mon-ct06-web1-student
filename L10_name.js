@@ -36,5 +36,5 @@ function draw() {
 
     textAlign(RIGHT, CENTER);
     textSize(18);
-    text("Enter your name: ", width/2, height/2);
+    text("Enter your name: ", width/2, height/2+100);
 }
