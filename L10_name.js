@@ -28,7 +28,7 @@ function setup() {
 }
 
 function updateAge() {
-    ??
+    age = ageInput.value();
 }
 
 function updateName() {
