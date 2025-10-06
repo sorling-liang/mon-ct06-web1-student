@@ -23,7 +23,7 @@ function setup() {
     // step 2: create the input field
     userInput = createInput(username);
     userInput.position(width/2,   height/2 + 40);
-    userInput.size(100);
+    userInput.size(300);
     userInput.input(updateName); // connect the changes
 
     ageInput = createInput(age, "number"); // date, time, text, number, password
