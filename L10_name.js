@@ -39,4 +39,7 @@ function draw() {
     textSize(18);
     text("Change Color here: ", width/2, height/2+10);
     text("Enter your name: ",   width/2, height/2+52);
+
+    text("Enter your age: ",   width/2, height/2+52);
+
 }
