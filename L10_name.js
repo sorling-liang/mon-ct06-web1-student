@@ -26,5 +26,5 @@ function draw() {
     rect(100, 50, 400, 200, 25);
 
     fill("black");
-    text(username, xpos, ypos);
+    text(username, 150, 100);
 }
