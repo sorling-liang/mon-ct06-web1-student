@@ -33,4 +33,8 @@ function draw() {
     fill("black");
     textSize(44);
     text(username, 150, 120);
+
+    textAlign(RIGHT, CENTER);
+    textSize(18);
+    text("Enter your name: ", )
 }
