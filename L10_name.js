@@ -9,6 +9,8 @@ let userInput;
 let age = 99;
 let ageInput;
 
+let dob = 
+
 // run once
 function setup() {
     createCanvas(600, 600);
