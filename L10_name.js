@@ -1,5 +1,5 @@
 // write your codes here
-let bgColor = "purple";
+let bgColor = "hotpink";
 let colorPicker;
 
 // run once
