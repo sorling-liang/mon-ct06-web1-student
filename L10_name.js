@@ -6,7 +6,8 @@ let colorPicker;
 let username = "David";
 let userInput;
 
-
+let age = 99;
+let ageInput;
 
 // run once
 function setup() {
