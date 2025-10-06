@@ -52,7 +52,7 @@ function draw() {
     background( colorPicker.value() );
     fill("white");
     stroke("blue");
-    strokeWeight();
+    strokeWeight(3);
     rect(100, 50, 400, 200, 25);
 
     fill("black");
@@ -61,7 +61,7 @@ function draw() {
     text(username, 150, 120);
     text(age,      150, 165);
 
-    fill("red");
+    fill("orange");
     textAlign(RIGHT, CENTER);
     textSize(18);
     text("Change Color here: ", width/2, height/2+10);
