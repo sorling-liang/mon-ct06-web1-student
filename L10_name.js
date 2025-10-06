@@ -16,7 +16,7 @@ function setup() {
 
     // step 2: create the input field
     userInput = createInput(username);
-    userInput.position(width/2,   height/2 + 70);
+    userInput.position(width/2,   height/2 + 20);
     userInput.input(updateName); // connect the changes
 }
 
@@ -38,5 +38,5 @@ function draw() {
     textAlign(RIGHT, CENTER);
     textSize(18);
     text("Change Color here: ", width/2, height/2+10);
-    text("Enter your name: ",   width/2, height/2+82);
+    text("Enter your name: ",   width/2, height/2+32);
 }
