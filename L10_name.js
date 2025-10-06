@@ -14,6 +14,7 @@ function setup() {
     colorPicker = createColorPicker(bgColor);
     colorPicker.position(width/2, height/2);
 
+    // step 2: create the input field
     userInput = createInput(username);
     userInput.position(width/2, height/2 + 100);
 }
