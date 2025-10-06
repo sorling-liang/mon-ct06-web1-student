@@ -23,6 +23,8 @@ function setup() {
     userInput.input(updateName); // connect the changes
 
     ageInput = createInput(age);
+
+    
 }
 
 function updateName() {
