@@ -35,12 +35,11 @@ function setup() {
 }
 
 function updateDOB() {
-    dob = do
+    dob = dobInput.value();
 }
 function updateAge() {
     age = ageInput.value();
 }
-
 function updateName() {
     username = userInput.value();
 }
