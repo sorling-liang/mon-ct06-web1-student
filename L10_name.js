@@ -21,8 +21,9 @@ function setup() {
 }
 
 function updateName() {
-    user
+    username = userInput.value();
 }
+
 // repeatedly 60 times per second
 function draw() {
     background( colorPicker.value() );
