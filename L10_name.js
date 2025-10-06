@@ -2,6 +2,7 @@
 let bgColor = "hotpink";
 let colorPicker;
 
+// step 1: start with variable
 let username = "David";
 let userInput;
 
