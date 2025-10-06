@@ -41,5 +41,4 @@ function draw() {
     text("Enter your name: ",   width/2, height/2+52);
 
     text("Enter your age: ",   width/2, height/2+82);
-
 }
