@@ -53,12 +53,13 @@ function draw() {
     fill("white");
     rect(100, 50, 400, 200, 25);
 
-    fill("red");
+    fill("black");
     textSize(44);
     textAlign(LEFT, CENTER)
     text(username, 150, 120);
     text(age,      150, 165);
 
+    fill("red");
     textAlign(RIGHT, CENTER);
     textSize(18);
     text("Change Color here: ", width/2, height/2+10);
