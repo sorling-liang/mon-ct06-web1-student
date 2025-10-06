@@ -34,6 +34,9 @@ function setup() {
     dobInput.input(updateDOB);
 }
 
+function updateDOB() {
+    dob = do
+}
 function updateAge() {
     age = ageInput.value();
 }
