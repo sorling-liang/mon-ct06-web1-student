@@ -22,7 +22,7 @@ function setup() {
     userInput.position(width/2,   height/2 + 40);
     userInput.input(updateName); // connect the changes
 
-    ageInput = createInput(age, "number");
+    ageInput = createInput(age, "number"); // date, time, text, number
     ageInput.position(width/2, height/2 + 72);
     ageInput.input(updateAge); // connect the changes
 }
