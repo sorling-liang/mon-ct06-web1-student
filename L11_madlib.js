@@ -27,7 +27,7 @@ function draw() {
     fill("hotpink");
     noStroke();
     // draw a rectangle
-    rect(100,280,400,300,25);
+    rect(100,280,400,250,25);
 
     fill("white");
     //story = "HAPPY";
