@@ -25,7 +25,7 @@ function setup() {
     verbInput.position(200, 100);
 
     adjectiveInput = createInput("e.g. happy");
-    verbInput.position(200, 100);
+    adjectiveInput.position(200, 100);
 }
 
 function changeText() {
