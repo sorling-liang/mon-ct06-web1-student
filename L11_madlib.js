@@ -3,7 +3,7 @@ let button1;
 
 // run once
 function setup() {
-    createCanvas(600, 400);
+    createCanvas(600, 600);
     background("black"); // valid value 0-255
 
     button1 = createButton( "Click on Me!" );
