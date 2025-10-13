@@ -34,14 +34,12 @@ let friends = [
     "Lucky",
     "Poo Poo Man",
     "skibidi",
-    "67",
-    "xxxx",
 ];
 
 let ypos = 100;
 
 function setup() {
-    createCanvas(800,800);
+    createCanvas(800,600);
     background("purple");
     fill("white");
     textSize(48);
