@@ -4,7 +4,7 @@ set the color of the background
 */
 
 function setup() {
-    ba
+    background("black");
 }
 
 function draw() {
