@@ -15,5 +15,6 @@ function setup() {
 function draw() {
     fill("hotpink");
     noStroke();
+    // draw a rectangle
     rect(100,200,400,300,25);
 }
