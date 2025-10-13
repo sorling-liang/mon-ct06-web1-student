@@ -3,6 +3,8 @@ let button1;
 let story;
 
 let sometextInput; // variable for capturing input
+let verbInput;
+let adInput;
 
 // run once
 function setup() {
