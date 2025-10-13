@@ -15,7 +15,8 @@ function setup() {
     button1.mousePressed( changeText ); // connect
     story = 0;
 
-    sometextInput = createInput()
+    sometextInput = createInput();
+    sometextInput.position(50, 50)
 }
 
 function changeText() {
