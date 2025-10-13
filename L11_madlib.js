@@ -8,6 +8,7 @@ function setup() {
 
     button1 = createButton( "Click on Me!" );
     button1.position(50, 50);
+    button1.size(100, 100);
 }
 
 // repeatedly 60 times per second
