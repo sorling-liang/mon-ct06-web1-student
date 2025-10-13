@@ -40,6 +40,7 @@ let ypos = 100;
 
 function setup() {
     createCanvas(800,600);
+    createCanvas(400,100);
     background("purple");
     fill("white");
     textSize(48);
