@@ -37,5 +37,6 @@ function draw() {
 
     fill("black");
     textSize(18);
-    text("Enter noun:", 200,50);
+    text
+    text("Enter noun:", 50,50);
 }
