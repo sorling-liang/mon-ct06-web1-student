@@ -32,7 +32,7 @@ let friends = [
     "Jayden",
     "Santa Claus",
     "Lucky",
-    "Poo Poo Man",
+    "PMan",
     "skibidi",
 ];
 
