@@ -36,5 +36,5 @@ function draw() {
     text(story, 300,320);
 
     fill("black");
-    text("Enter noun:".)
+    text("Enter noun:", 200,200);
 }
