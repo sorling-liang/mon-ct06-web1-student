@@ -20,7 +20,7 @@ function draw() {
     rect(100,200,400,300,25);
 
     fill("white");
-    story = "HAPPY";
+    //story = "HAPPY";
     textSize(48);
     textAlign(CENTER, CENTER);
     text(story, 300,320);
