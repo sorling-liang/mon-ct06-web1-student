@@ -38,6 +38,8 @@ let friends = [
 function setup() {
     createCanvas(800,600);
     background("purple");
+    fill("white");
+    textSize(48);
 
     for (let index=0; index< friends.length; index++) {
         text(friends[index], 50, 50);
