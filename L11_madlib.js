@@ -20,7 +20,7 @@ function setup() {
 }
 
 function changeText() {
-    story++; // increase one
+    story = sometextInput.value();
 }
 
 // repeatedly 60 times per second
