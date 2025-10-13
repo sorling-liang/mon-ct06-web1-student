@@ -4,8 +4,8 @@ set the color of the background
 */
 
 function setup() {
-    createCanvas(500,500);
-    background("black");
+    createCanvas(400,600);
+    background("red");
 }
 
 function draw() {
