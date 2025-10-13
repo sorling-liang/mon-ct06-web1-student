@@ -1,5 +1,6 @@
 // write your codes here
 let button1;
+let story;
 
 // run once
 function setup() {
