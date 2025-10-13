@@ -41,7 +41,7 @@ let friends = [
 let ypos = 100;
 
 function setup() {
-    createCanvas(800,600);
+    createCanvas(800,800);
     background("purple");
     fill("white");
     textSize(48);
