@@ -28,4 +28,6 @@ function setup() {
 
 }
 
-func
+function draw() {
+    
+}
