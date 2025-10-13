@@ -24,10 +24,13 @@ set the color of the background
     
 // }
 
+/*
+create an array of some names of your friends
+*/
 function setup() {
 
 }
 
 function draw() {
-    
+
 }
