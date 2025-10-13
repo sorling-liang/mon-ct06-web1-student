@@ -1,3 +1,9 @@
 
 
-function set
+function setup() {
+
+}
+
+function draw() {
+    
+}
