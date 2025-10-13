@@ -35,7 +35,7 @@ function draw() {
     textAlign(CENTER, CENTER);
     text(story, 300,320);
 
-    fill("red");
+    fill("pink");
     textSize(18);
     textAlign(RIGHT, CENTER);
     text("Enter noun:", 180,60);
