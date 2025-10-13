@@ -15,7 +15,7 @@ function setup() {
 }
 
 function changeText() {
-    story++;
+    story++; // increase one
 }
 
 // repeatedly 60 times per second
