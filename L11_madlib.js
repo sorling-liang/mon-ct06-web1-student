@@ -14,8 +14,9 @@ function setup() {
 }
 
 function changeText() {
-    story = "ANGRY"
+    story = "ANGRY ME";
 }
+
 // repeatedly 60 times per second
 function draw() {
     fill("hotpink");
