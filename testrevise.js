@@ -14,6 +14,8 @@ function draw() {
     circle(xpos, 50,50);
     xpos = xpos + velocity;
 
-    if (xpos > wi)
+    if (xpos > width) {
+        velocity = velocity * -1;
+    }
     
 }
