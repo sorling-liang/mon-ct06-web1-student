@@ -16,7 +16,7 @@ function setup() {
     story = 0;
 
     sometextInput = createInput();
-    sometextInput.position(50, 50)
+    sometextInput.position(50, 50);
 }
 
 function changeText() {
