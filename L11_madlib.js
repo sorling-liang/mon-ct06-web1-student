@@ -24,7 +24,8 @@ function setup() {
     verbInput = createInput("e.g. swim");
     verbInput.position(200, 100);
 
-    adjectiveInput = createInput("e.g. swim");
+    adjectiveInput = createInput("e.g. happy");
+    verbInput.position(200, 100);
 }
 
 function changeText() {
