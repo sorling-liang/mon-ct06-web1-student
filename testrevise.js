@@ -30,6 +30,7 @@ create an array of some names of your friends
 let friends = [
     "Joy",
     "Jayden",
+    "Santa Claus",
     "",
 ];
 
