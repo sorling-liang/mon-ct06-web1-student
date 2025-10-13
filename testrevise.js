@@ -27,6 +27,7 @@ set the color of the background
 /*
 create an array of some names of your friends
 */
+
 function setup() {
     createCanvas(800,600);
     background("purple");
