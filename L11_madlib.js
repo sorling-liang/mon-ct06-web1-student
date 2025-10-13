@@ -34,4 +34,6 @@ function draw() {
     textSize(48);
     textAlign(CENTER, CENTER);
     text(story, 300,320);
+
+    fill("black")
 }
