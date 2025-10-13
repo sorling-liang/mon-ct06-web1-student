@@ -2,10 +2,10 @@
 set the color of the background
 */
 let xpos = 50;
-let velocity = 2;
+let velocity = 10;
 
 function setup() {
-    createCanvas(400,600);
+    createCanvas(800,600);
     background("purple");
 }
 
