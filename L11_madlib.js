@@ -2,7 +2,7 @@
 let button1;
 let story;
 
-let sometextInput;
+let sometextInput; // variable
 
 // run once
 function setup() {
