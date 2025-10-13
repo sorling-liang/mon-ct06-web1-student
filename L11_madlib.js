@@ -4,7 +4,9 @@ let story;
 
 let sometextInput; // variable for capturing input
 let verbInput;
-let adInput;
+let adjectiveInput;
+let adverb;
+
 
 // run once
 function setup() {
