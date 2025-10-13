@@ -14,5 +14,5 @@ function setup() {
 // repeatedly 60 times per second
 function draw() {
     fill("hotpink");
-    rect(100,100,300,300)
+    rect(100,200,300,300);
 }
