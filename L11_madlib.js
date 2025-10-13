@@ -2,6 +2,8 @@
 let button1;
 let story;
 
+let sometextInput;
+
 // run once
 function setup() {
     createCanvas(600, 600);
