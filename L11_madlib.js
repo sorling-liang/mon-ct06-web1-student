@@ -38,5 +38,5 @@ function draw() {
     fill("black");
     textSize(18);
     textAlign(RIGHT, CENTER);
-    text("Enter noun:", 180,30);
+    text("Enter noun:", 180,60);
 }
