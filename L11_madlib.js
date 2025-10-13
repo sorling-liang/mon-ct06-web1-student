@@ -22,7 +22,7 @@ function setup() {
     sometextInput.position(200, 50);
 
     verbInput = createInput("e.g. swim");
-    verbInput
+    verbInput.position(200, 180);
 }
 
 function changeText() {
