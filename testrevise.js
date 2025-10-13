@@ -33,6 +33,7 @@ let friends = [
     "Santa Claus",
     "Lucky",
     "Poo Poo Man",
+    "",
 ];
 
 let ypos = 100;
@@ -45,7 +46,7 @@ function setup() {
 
     for (let index=0; index< friends.length; index++) {
         text(friends[index], 50, ypos);
-        ypos = ypos + 50;
+        ypos = ypos + 80;
     }
 }
 
