@@ -40,7 +40,7 @@ function setup() {
     background("purple");
 
     for (let index=0; index< friends.length; index++) {
-        text()
+        text(friends[index])
     }
 }
 
