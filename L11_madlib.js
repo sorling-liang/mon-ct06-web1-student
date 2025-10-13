@@ -10,6 +10,7 @@ function setup() {
     button1 = createButton( "Click on Me!" );
     button1.position(50, 50);
     button1.size(100, 80);
+    button1.mousePressed( changeText );
 }
 
 // repeatedly 60 times per second
