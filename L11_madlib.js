@@ -15,7 +15,7 @@ function setup() {
     button1.mousePressed( changeText ); // connect
 
     sometextInput = createInput("e.g. a boy");
-    sometextInput.position(50, 50);
+    sometextInput.position(200, 50);
 }
 
 function changeText() {
