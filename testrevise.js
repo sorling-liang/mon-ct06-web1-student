@@ -43,10 +43,10 @@ function setup() {
     background("purple");
     fill("white");
     textSize(48);
-    textAlign(CENTER, CENTER);
+    //textAlign(CENTER, CENTER);
 
     for (let index=0; index< friends.length; index++) {
-        text(friends[index], width/2, ypos);
+        text(friends[index], 100, ypos);
         ypos = ypos + 80;
     }
 }
