@@ -45,7 +45,7 @@ function setup() {
     textSize(48);
 
     for (let index=0; index< friends.length; index++) {
-        text(friends[index], 50, ypos);
+        text(friends[index], width/2, ypos);
         ypos = ypos + 80;
     }
 }
