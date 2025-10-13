@@ -20,6 +20,8 @@ function setup() {
 
     sometextInput = createInput("e.g. a boy");
     sometextInput.position(200, 50);
+
+    verbInput = createInput("e.g.")
 }
 
 function changeText() {
