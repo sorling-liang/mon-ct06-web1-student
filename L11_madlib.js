@@ -13,6 +13,9 @@ function setup() {
     button1.mousePressed( changeText );
 }
 
+function changeText() {
+    story = "ANGRY"
+}
 // repeatedly 60 times per second
 function draw() {
     fill("hotpink");
