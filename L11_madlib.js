@@ -5,8 +5,8 @@ let story;
 let sometextInput; // variable for capturing input
 let verbInput;
 let adjectiveInput;
-let adverb;
-
+let adverbInput;
+let placeInput
 
 // run once
 function setup() {
