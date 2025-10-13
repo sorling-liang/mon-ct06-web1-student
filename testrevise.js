@@ -33,7 +33,8 @@ let friends = [
     "Santa Claus",
     "Lucky",
     "Poo Poo Man",
-    "",
+    "skibidi",
+    "67",
 ];
 
 let ypos = 100;
