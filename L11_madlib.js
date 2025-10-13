@@ -35,5 +35,6 @@ function draw() {
     textAlign(CENTER, CENTER);
     text(story, 300,320);
 
-    fill("black")
+    fill("black");
+    text("Enter noun:".)
 }
