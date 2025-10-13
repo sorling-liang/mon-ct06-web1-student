@@ -1,4 +1,5 @@
 // write your codes here
+let button1;
 
 // run once
 function setup() {
