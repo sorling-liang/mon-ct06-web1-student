@@ -13,5 +13,5 @@ function setup() {
 
 // repeatedly 60 times per second
 function draw() {
-
+    rect(100,100)
 }
