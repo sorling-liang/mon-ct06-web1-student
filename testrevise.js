@@ -31,7 +31,8 @@ let friends = [
     "Joy",
     "Jayden",
     "Santa Claus",
-    "",
+    "Lucky",
+    "Poo Poo Man",
 ];
 
 function setup() {
