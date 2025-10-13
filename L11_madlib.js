@@ -13,7 +13,7 @@ function setup() {
     button1.position(250, 50);
     button1.size(100, 80);
     button1.mousePressed( changeText ); // connect
-    story = 0;
+    //story = 0;
 
     sometextInput = createInput();
     sometextInput.position(50, 50);
