@@ -35,6 +35,7 @@ let friends = [
     "Poo Poo Man",
     "skibidi",
     "67",
+    "xxxx",
 ];
 
 let ypos = 100;
