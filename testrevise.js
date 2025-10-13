@@ -12,4 +12,5 @@ function draw() {
     background("purple");
     circle(xpos, 50,50);
     xpos = xpos + 5;
+    xpos = constrain(xpos, 0, width);
 }
