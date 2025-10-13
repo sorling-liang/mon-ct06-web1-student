@@ -19,7 +19,8 @@ function draw() {
     // draw a rectangle
     rect(100,200,400,300,25);
 
-    fill("red");
+    fill("white");
     story = "HAPPY";
+    textSize(48);
     text(story, 300,300);
 }
