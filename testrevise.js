@@ -38,6 +38,10 @@ let friends = [
 function setup() {
     createCanvas(800,600);
     background("purple");
+
+    for (let index=0; index< friends.length; index++) {
+        text()
+    }
 }
 
 function draw() {
