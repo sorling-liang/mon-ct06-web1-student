@@ -8,5 +8,5 @@ function setup() {
 }
 
 function draw() {
-
+    circle(xpos, 50, )
 }
