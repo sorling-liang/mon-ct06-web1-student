@@ -22,5 +22,6 @@ function draw() {
     fill("white");
     story = "HAPPY";
     textSize(48);
+    textAlign(CENTER, CENTER);
     text(story, 300,300);
 }
