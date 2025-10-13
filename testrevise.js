@@ -35,7 +35,7 @@ let friends = [
     "Poo Poo Man",
 ];
 
-let ypos = 50;
+let ypos = 100;
 
 function setup() {
     createCanvas(800,600);
