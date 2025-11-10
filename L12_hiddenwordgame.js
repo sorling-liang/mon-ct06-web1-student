@@ -48,7 +48,7 @@ function checkAnswer() {
                 foundletters = foundletters + selected[index] + " ";
             }
         }
-        message = "Wrong! Try again";
+        message = "Wrong! Correct letters are " + foundletters;
     }
 }
 
