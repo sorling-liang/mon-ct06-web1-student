@@ -42,8 +42,9 @@ function checkAnswer() {
     }
     else {
         // write your algo here!
+        let foundletters = "";
         for (let index=0; index<selected.length; index++) {
-            
+
         }
         message = "Wrong! Try again";
     }
