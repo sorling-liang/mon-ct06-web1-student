@@ -45,7 +45,7 @@ function checkAnswer() {
         let foundletters = "";
         for (let index=0; index<selected.length; index++) {
             if (selected[index] === userinput[index]) {
-                foundletters = foundletters + selected[index];
+                foundletters = foundletters + selected[index] + " ";
             }
         }
         message = "Wrong! Try again";
