@@ -41,6 +41,7 @@ function checkAnswer() {
         message = "You guessed it! The hidden word is " + selected;
     }
     else {
+        // write your algo
         message = "Wrong! Try again";
     }
 }
