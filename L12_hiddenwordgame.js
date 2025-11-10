@@ -35,7 +35,8 @@ function generateHints() {
 }
 
 function checkAnswer() {
-    let userinput = textInput.v
+    let userinput = textInput.value().toUpperCase();
+    
     if (textInput.value() === selected) {
         message = "You guessed it! The hidden word is " + selected;
     }
