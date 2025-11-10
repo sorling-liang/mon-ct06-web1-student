@@ -48,7 +48,7 @@ function checkAnswer() {
             }
         }
         if (foundletters.length === 0) {
-            message = "Wrong! "
+            message = "Wrong! Try again!";
         } else {
             message = "Wrong! Correct letters are " + foundletters;
         }
