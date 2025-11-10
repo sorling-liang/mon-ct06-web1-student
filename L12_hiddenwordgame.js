@@ -1,7 +1,7 @@
 // write your codes here
 
 let hiddenwords = ["beach", "cloud", "mango",
-    "", "", "",
+    "stars", "enter", "glove",
 ];
 
 let textInput;
