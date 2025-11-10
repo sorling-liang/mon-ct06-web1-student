@@ -41,7 +41,7 @@ function checkAnswer() {
         message = "You guessed it! The hidden word is " + selected;
     }
     else {
-        message = "Wrong! Try again"
+        message = "Wrong! Try again";
     }
 }
 
