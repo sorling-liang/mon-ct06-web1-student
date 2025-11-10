@@ -35,8 +35,12 @@ function generateHints() {
 }
 
 function checkAnswer() {
-    message = "Wrong! Try again"
-    message = "You guessed it! The hidden word is " + selected;
+    if (answer === correct) {
+        message = "You guessed it! The hidden word is " + selected;
+    }
+    else {
+        message = "Wrong! Try again"
+    }
 }
 
 function draw() {
