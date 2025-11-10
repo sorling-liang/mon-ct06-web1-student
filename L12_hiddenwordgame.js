@@ -41,7 +41,6 @@ function checkAnswer() {
         message = "You guessed it! The hidden word is " + selected;
     }
     else {
-        // write your algo here!
         let foundletters = "";
         for (let index=0; index<selected.length; index++) {
             if (selected[index] === userinput[index]) {
