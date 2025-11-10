@@ -42,7 +42,9 @@ function checkAnswer() {
     }
     else {
         // write your algo here!
-        for (let index=0; index<selected.length; )
+        for (let index=0; index<selected.length; index++) {
+            
+        }
         message = "Wrong! Try again";
     }
 }
