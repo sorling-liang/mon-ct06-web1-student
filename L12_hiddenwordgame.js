@@ -35,6 +35,7 @@ function generateHints() {
 }
 
 function checkAnswer() {
+    let userinput = textInput.v
     if (textInput.value() === selected) {
         message = "You guessed it! The hidden word is " + selected;
     }
